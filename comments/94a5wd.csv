@@ -1,0 +1,1035 @@
+Comment Text,Comment Score,Parent Comment ID,Comment Depth,Created Timestamp
+"BCL, BSL are taking away cameras from spectators and news reporters. can we get a drone camera there? in jigatola?",108,t3_94a5wd,0,1533390080.0
+"It looks like people are using their real names to upload photos, which is dangerous. There are a lot of other ways you can be identified, as well. Any device connecting to the internet has an ""IP address"" that websites can (and almost always) record, **and show your physical location**. (As specific as a ~~neighborhood~~ city block!) Further, your internet provider knows every website you use. Corrupt governments can and will find dissidents this way. Complete safety is impossible, but there are tools the minimize *some* risks. I don't know what kinds of devices people are using, but I'll try to cover the most common operating systems.
+
+My **NON-EXPERT** advice:
+
+The Tor browser is a great, free tool, for just this purpose. If you can't use Tor, there's the ProtonVPN program for Windows and MacOS, which you can use with any browser. It's a little harder to use on phones, because it doesn't have native apps yet, while Tor is available on Android ([Orbot plus Orfox](https://guardianproject.info/releases/)) but not iOS. ProtonVPN has a free tier, which is slow but secure - don't trust any VPN that has no paid tiers. Tor and VPNs encrypt information leaving your computer and pass it through one or more servers around the world, so that websites don't know what device you're browsing from, and the internet company doesn't know what website you're using. For the Tor Browser, use the ""[Bridges](https://www.torproject.org/docs/bridges.html.en)"" mode, so that you won't be identified as a TOR user. For VPNs, be sure to turn the ""start with [OS],"" ""auto connect,"" and ""kill switch"" options on, to minimize risk of accidentally exposing yourself.
+
+One good things about the Tor Browser is that it can be run off of a flash drive, so you can use any computer. It's also standardized and has security settings defaulted so that it's more difficult to ""fingerprint."" If using a VPN, I recommend a new browser and settings/extensions shown [here](https://operational-security.com/3dsc-2-8-adjust-firefox-settings-security/) and [here](https://operational-security.com/firefox-security-privacy-add-ons/), to limit history/cookie collection, in case your computer is taken by police.
+
+Only log into one service at a time, so that you can't be identified by cookies or cross-referencing accounts accessed. If using a VPN and a browser with container tabs, use container tabs if you need to log into multiple services simultaneously. Use a different username (unrelated to your identity/interests/biography - it can even be random, like mine) for each service (a password manager helps with this - keepass is free and there are versions for all operating systems), and don't give any real information when creating an account.
+
+[Tutanota](https://tutanota.com/) is a privacy-respecting email service that you can sign up for with just a username and password, though you can't send or receive emails for 48 hours, if you trip their spam detection algorithm. [ProtonMail](https://protonmail.com/) is a better email provider overall, but requires sms or email confirmation that you're a real person, which would be a problem if your text messages or emails are already being spied on and you can't create a Tutanota account or use an internet based phone number.
+
+Many news organizations use a tool called Secure Drop for uploading things. I don't know much about it, but by all means, use it - it's probably one of the best things you can do, **especially if you have photographs or videos that identify perpetrators of violence**. Thank you to the brave people who brought the protests to out attention, but please go to journalists first, not social media. Tell them everything you can in both English and Bengali - the basic information in English will let them work quickly and they'll find a translator to get the details from the Bengali. Links to news organization tips pages at the bottom - they all have instructions.
+
+For communication within protest groups, ProtonMail is the best encrypted email and [Wire](https://wire.com/) is the best encrypted chat app. [Signal](https://www.signal.org/) uses phone numbers as usernames, which makes networking easier but may identify you. [Sudo](https://sudoapp.com/) (iOS only) gives you nine internet-based phone numbers and email addresses, which would be very difficult for the government to identify. Communication within the Sudo network is encrypted, but a few people downloading it and using the phone numbers and email addresses to create ProtonMail or Wire accounts for other protesters is perhaps a better use, since it's only for iOS. You can get three more identities per device with MySudo (the company is transitioning), but that app comes with very little call time.
+
+Do **NOT** use WhatsApp. Backups aren't encrypted and are on by default and it's owned by facebook, has poor account security and a history of cooperating with oppressive regimes. A lot of news organizations offer to communicate through WhatsApp, but I think that that's because it's popular, not because it's good.
+
+Metadata - sender/recipient and subject lines - isn't usually encrypted within apps, only the messages themselves, so a VPN is important. **Networks can be brought down by identifying who's messaging whom, even if the messages are unreadable**. This is usually done a more powerful government over a long period of time, but know that metadata is powerful - the US kills terrorists based on metadata. Journalists should be removing metadata (type of camera/phone, time, possibly location, etc.) from photos they use, but do it yourself before uploading them, anyway. You should be able to do so from your computer's file browser by right clicking properties>security or the equivalent.
+
+If you need to secure photos/video to share with journalists later, email them to yourself rather than uploading them to social media. Even if they're not cooperating with the government, social media sites can and will delete violent content, just as a matter of policy. **Evidence of war crimes has been lost this way.** For larger files, sync.com is a cloud storage site with 5 gb free that is *probably* safe, but hasn't been audited for security like Tutanota, ProtonMail, Signal, and Wire and isn't old enough to have a track record. They don't ask for much information, and you should be connecting through Tor of a VPN, so there shouldn't be much that could go wrong with sync, anyway. You can use encrypted zip files both for an added layer of security and to reduce upload/download times, though you would need to either skip the encryption or communicate a password when sending the files, of course.
+
+I think all smartphones have full disc encryption as an option in the security settings. Use it, along with a [long passcode](https://operational-security.com/ios-full-disk-encryption/), if you have a smartphone. Disable location tracking and turn it off, whenever you don't need it on and are at a protest. If a police officer takes your phone while it's unlocked, they'll still get everything, but if you're arrested with it locked, it'll be potentially impossible for them to get inside, without you unlocking it. (That said, they could threaten/torture you; you may just be delaying the inevitable.) Computers can be more difficult. It would be easier to use Bleachbit or CCleaner to overwrite anything sensitive immediately after it's been uploaded to the cloud/journalists.
+
+The Electronic Frontier Foundation has a [Surveillance Self-Defense](https://ssd.eff.org/) guide with more information. [Motherboard.Vice.com](https://motherboard.vice.com/en_us/article/a37m4g/the-motherboard-guide-to-avoiding-state-surveillance-privacy-guide), as well. [The Paranoid's Bible](https://paranoidsbible.tumblr.com/post/160173700334/the-paranoids-bible-20) wasn't written with this in mind, but is also good.
+
+ProtonMail uses the same PGP encryption that the EFF recommends, and, [as of last week](https://protonmail.com/blog/address-verification-pgp-support/), can work with out-of-network PGP tools. You also access it completely through an internet browser, so your emails are on a server in Switzerland, rather than your hard drive. Fewer potential points of failure, and you don't need to download anything to your computer for police to find. To send a PGP encrypted email from ProtonMail to a newspaper or journalist, add them to your contacts; [there will be an option to upload their public key](https://protonmail.com/support/knowledge-base/how-to-use-pgp/). With other PGP tools, you either need to install a browser extension and link it to your email account or download Thunderbird and link that, plus a plugin - I think this is a big improvement.
+
+Good luck, everyone! Again, I'm not an ""operational security"" expert, and even if I was, **nothing can eliminate risk in a situation like this**, but this is better than uploading to reddit with your real name, from your regular browser. /r/privacy will try to help you with any questions.
+
+Some news organizations you can contact securely:
+
+https://www.nytimes.com/newsgraphics/2016/news-tips/index.html - A Signal number and PGP key, plus Secure Drop.
+
+https://www.washingtonpost.com/anonymous-news-tips/?noredirect=on&utm_term=.f8a34d5e312e - A Signal number and PGP key, plus Peerio and Secure Drop.
+
+https://www.theguardian.com/help/2016/sep/19/how-to-contact-the-guardian-securely - Three Signal numbers, a PGP key, plus Secure Drop.
+
+https://www.propublica.org/leak-to-us/ - A Signal number and PGP key, plus Secure Drop.
+
+https://theintercept.com/source/ - A Signal number, plus Secure Drop; PGP keys on each journalist's profile.
+
+https://www.ap.org/tips/ - A Signal number, plus Secure Drop; PGP keys on each journalist's profile.
+
+https://www.reuters.com/investigates/special-report/tips/ - A Signal number and PGP key, plus Secure Drop.
+
+Human Rights organizations:
+
+https://www.hrw.org/contact-us
+
+https://www.amnesty.org/en/about-us/contact/",96,t3_94a5wd,0,1533428997.0
+"International news coverage so far - 
+
+DW - https://www.dw.com/en/bangladeshi-school-students-take-control-of-dhaka-streets/av-44945036?maca=en-Facebook-sharing
+
+Guardian - https://www.theguardian.com/world/2018/aug/03/teenagers-bring-parts-of-bangladesh-to-a-halt-with-bus-death-protests
+
+Xinhua - http://www.xinhuanet.com/english/2018-07/31/c_137359926.htm
+
+The Diplomat - https://thediplomat.com/2018/08/students-protest-against-reckless-driving-roil-bangladesh/
+
+BBC - https://www.bbc.com/news/world-asia-45048012?SThisFB
+
+Al Jazeera - https://www.aljazeera.com/news/2018/08/bangladesh-mass-student-protests-deadly-road-accident-180802174519088.html
+
+The Rappler - https://www.rappler.com/world/regions/south-central-asia/208710-student-protests-bangladesh-2018",60,t3_94a5wd,0,1533307431.0
+AL politician admits to beating children on National TV - https://www.youtube.com/watch?v=7Gu7KU8c924&feature=youtu.be,40,t3_94a5wd,0,1533415644.0
+can anyone confirm if mobile internet has been shut down? I am hearing reports of 4G and 3G connectivity being lost. ,39,t3_94a5wd,0,1533397005.0
+"**PSA** : If you're sharing videos and pictures of the event on Facebook, please change your password right away to something secure, preferably a 24+ letter ones. use something like LastPass or Bitwarden to generate and save it. I just had 3 unidentified login attempts.",42,t3_94a5wd,0,1533461621.0
+"A male student talking about his female friend being abducted-
+https://m.facebook.com/story.php?story_fbid=1747580742026209&id=100003229017143",36,t3_94a5wd,0,1533395445.0
+Facebook had been shutdown in Bangladesh,30,t3_94a5wd,0,1533399827.0
+Is evidence and info being posted from outside of Bangladesh so it can't be taken down? If that's something that would help I can do it (located in US).,24,t3_94a5wd,0,1533482734.0
+"Shahidul Alam, prominent photographer and intellectual, has been abducted by the police few minuets ago. He was seen on [this](https://www.facebook.com/shoebrda96/videos/10204761333311379/) AlJazeera report. He was picked up from his home in Dhaka by over 20 law enforcement officers after giving an interview to AlJazeera about the current student protests.  Source: [this Facebook post ](https://www.facebook.com/tanvir.topu/posts/10156257593091628)by another prominent photographer  
+",25,t3_94a5wd,0,1533489356.0
+"""If you are living in Bashundhara be alert. They just searched my house. Delete any pics you got on your phone. They are searching all phones and laptops. If you are unwilling to open doors, they'll break it down and enter. They asked me to strip and searched my body for rubber bullet marks. It's not a rumour anymore."" https://imgur.com/a/VpxlgeE",24,t3_94a5wd,0,1533753048.0
+Can someone post the Dhaka Tribune links on r/worldnews. It won't let me post since my account is new and doesn't have karma.,21,t3_94a5wd,0,1533393048.0
+"The best I could do is share the story through my school radio's Instagram account (Switzerland).
+
+Here it is: https://www.instagram.com/p/BmEqJcUA2ut/?utm_source=ig_share_sheet&igshid=17b4z7qw9iw0d
+
+I wrote to all the news agencies I could think about, unfortunately it's midnight here and tomorrow it's Sunday. Doubt anyone works here. No news agency reported this, not even national TV (at least Italian speaking RSI) despite details being well known when aired.
+
+Will try to spam local news more if it doesn't get coverage.",21,t3_94a5wd,0,1533423061.0
+"Jigatola turns into battlefield, BGB deployed https://www.dhakatribune.com/bangladesh/dhaka/2018/08/04/live-students-block-streets-in-uttara",19,t3_94a5wd,0,1533384587.0
+Correct me if I’m wrong but it’s bewildering to me that the major journalistic sites are still not reporting the events in full? Even the Guardian and BBC articles seemed like the cursory bare minimum,19,t3_94a5wd,0,1533533850.0
+"The live thread said students are being burned alive? Is this true? 
+
+Stop, drop and roll. Cover all burns with whatever clean clothing or bandages you can find. And if you see a tear gas grenade coming at you, do what you can to kick it away or pick it up and throw it back. ",17,t3_94a5wd,0,1533457280.0
+"It is 1:44 a.m. Pacific Standard Time, where I'm posting. The date is Sunday, 5 August of 2018. 
+
+As of 17 minutes ago, /u/VPM43 has not updated the live thread. I'm inclined to believe the Bangladeshi government has again shut off the internet across the country. 
+
+Anyone who can help provide alternative internet, please do so now. Lives are depending on it. 
+
+EDIT: 
+
+/u/VPM43 has updated at 1:53 a.m., but needs help. ",16,t3_94a5wd,0,1533458614.0
+"[The Guardian has a published a very truthful article regarding the situation today at 7:06 AM EDT (8:06 AM EST).](https://www.theguardian.com/world/2018/aug/05/bangladesh-pm-urges-teen-protesters-to-go-home-amid-violence)
+
+It appears on [news.google.com](https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen) as the 13th link on the front page under the ""World"" category",17,t3_94a5wd,0,1533491486.0
+"[https://www.theglobeandmail.com/world/article-bangladesh-cracks-down-on-dangerous-driving-after-protests/](https://www.theglobeandmail.com/world/article-bangladesh-cracks-down-on-dangerous-driving-after-protests/)
+
+This is how international media is reporting on what's happening. ",17,t3_94a5wd,0,1533497024.0
+"It’s great that all this evidence is being collated, but has anyone been contacting the South Asia news desk for the various international news outlets? It needs to gain traction and go up the ladder for the respective agencies before they splash it all over their main pages.
+
+Reuters, AFP, BBC, Al-J and the like all have regional subdivisions with local reporters...it’s them who need to be tweeted at, not the organisation at the top level.
+
+Also try non traditional media. These events are bread and butter for the folks behind Vice News, Daily Show, John Oliver, Samantha Bee, Jim Jeffries, The Last Leg with Adam Hills and their ilk. Their researchers may help give you coverage.",16,t3_94a5wd,0,1533515795.0
+Now #WeDemandJustice is being censored on Twitter...what is going on?!,17,t3_94a5wd,0,1533504770.0
+"There has not been a lot of news coverage here in America and I hope that we can all bring more awareness to what is currently occurring on the other side of the world. I compiled a list of what has happened and some links to more information. If anything is wrong just let me know and I’ll get to it when I can. This is by no means a complete list, just a broad overview of what is happening.
+
+Currently, the Bangladesh government is trying to squash people's attempts to speak out against the violence that is occurring under the pretense of stopping ""fake news"" from spreading. To give you context of the situation at hand, two school bus drivers were recklessly racing one another to pick up passengers and led to the killing of two students. This resulted in public outrage and protest that was greatly fueled by comments made by Shajahan Khan, President of the Road Transport Federation. What started off as a peaceful, student movement against the killing of two students and road safety, has ended in bloodshed and violence. Several attacks are being made on students and journalists allegedly from the Bangladesh Chhatra League (BCL), a corrupt youth organization linked to the Awami League.
+
+I understand a lot of this is fairly recent and it's hard to pinpoint the truth in some of claims being made in the social media chaos that is ensuing, but the amount of evidence (photos, videos,articles) that is fitting the civilian’s narrative better than the governments is outstanding (see links below).
+
+We cannot let a corrupt system take advantage over these people. We need to let as many people know the terrifying reality that is occurring right now. It is a warning to all of us of what can occur when the wrong people have too much power. As of now, the government has made attempts to cut off mobile internet, stop news outlets from reporting on the incidents, and change the narrative so it would fall in their favor.",15,t3_94a5wd,0,1533508487.0
+"Link to article published by BBC talking about some of the protests, some quotes and other things. 
+
+https://www.google.com/amp/s/www.bbc.com/news/amp/world-asia-45074384 ",12,t3_94a5wd,0,1533485609.0
+"Attacks on students & protesters - 
+
+https://www.dhakatribune.com/bangladesh/dhaka/2018/08/02/chhatra-league-jubo-league-police-assault-and-chase-away-protesters-students-claim
+
+ULAB students attacked after demonstration, allegedly by chatra league - https://www.dhakatribune.com/bangladesh/dhaka/2018/08/03/demonstrating-ulab-students-under-attack
+
+",15,t3_94a5wd,0,1533308590.0
+"A petition to the UN to enlist BCL, the student wing of the ruling Awami League party, as a terrorist organization is being circulated - https://www.change.org/p/united-nations-enlist-bangladesh-chhatra-league-bcl-as-a-terrorist-organization?signed=true",13,t3_94a5wd,0,1533447566.0
+Photographer and social activist Shahidul Alam abducted from his home after giving an interview on Al Jazeera https://m.facebook.com/story.php?story_fbid=10156648541748824&id=654418823,13,t3_94a5wd,0,1533491784.0
+"I keep seeing the odd post hit the front page then vanish.  Just thought I would mention that, there may be some funny business going on with this whole ordeal.  Somebody is censoring this incident from spreading.   Either bots, or maybe Reddit themselves being ordered to delete/modify ranking of posts?  I don't want to start any conspiracies but something worth looking into. 
+
+I have yet to see anything show up on our news (Canada).  I really don't know how that works, how can I make them aware of this?  Do I need to write a news article myself and submit it?  Do I contact my MP and they handle it?  Can I just give them this thread or do they need a ""credible"" source like an existing news article?  ",14,t3_94a5wd,0,1533503865.0
+"I don't support alot of movements. I could've been supporting the situation in the Middle East, or the crisis in Venezuela. But I'm currently not. So why am I supporting this particular protest? Because of alot of reasons, most of which are the blatant violations of human rights (which is a huge point of the protest). But the main reason for me is censorship. And I HATE censorship. I hate being silenced and having my voice muted. Their government is taking down media and posts that were supposed to spread the untarnished truth of their grim situation. This makes it more important than ever to speak out. A government that causes problems and subsequently hides those problems, is an inhumane government. Some might argue that sharing on social media or signing some petition would just be ineffective slacktivism. But it's that attitude that suppresses the message from reaching the attention of both the masses and the international authority. We need two things from the world: their undivided attention, and their undying support. The second part should be easy as what is shown is obviously and undeniably wrong. But we haven't finished the first step yet. And hitting that share button or that ""sign this petition"" button might do just that, if enough people do it.
+
+I am making 2 points. That the government of Bangladesh is a horrible one. And that one should not think that they cannot do anything that makes a difference. Speak out. Let the world be able to watch with understanding eyes. ",24,t3_94a5wd,0,1533523153.0
+"Actress Nowshaba has been arrested
+https://www.facebook.com/141195262639627/posts/1861766053915864/",12,t3_94a5wd,0,1533400191.0
+[removed],11,t3_94a5wd,0,1533495206.0
+"Hello, I am Slovak and know both English and German well, if there are any sources in either English or German that (rather English) talk about what is going on I could translate them into Slovak and share them. Could you please send me links? I have only seen links for translation to English, but I can't help with those unfortunately",11,t3_94a5wd,0,1533537775.0
+"Update:
+Check twitter with #roadsafety tag, it is getting filled with hundreds of same tweets. Guessing that the ruling party has finally figured out how to manipulate cyberspace to their advantage.",14,t3_94a5wd,0,1533661179.0
+"Last update, Aug 9, Thursday, 10.30 AM EST, 8.30 PM Bangladesh time - 
+
+Not much has happened in the city in the last 24 hours. 22 private uni students who have been arrested and denied bail have been taken into remand. 
+
+[High Court has ordered a fresh medical checkup on Shahidul Alam to see if he has been tortured.](https://www.dhakatribune.com/bangladesh/court/2018/08/09/hc-orders-shahidul-alam-s-fresh-medical-check-up)
+
+[Road Transport owners are checking papers and licenses of drivers.](https://www.thedailystar.net/city/transport-owners-check-licences-papers-at-bus-terminals-1618186)
+
+[The CEO of Zoombangla, an online news portal, and a BUET student, have been arrested and their devices seized for spreading ""fake news"" to incite unrest and violence during the protests.](https://www.dhakatribune.com/bangladesh/dhaka/2018/08/09/web-portal-s-ceo-buet-student-held-for-publishing-fake-news-spreading-rumours)
+
+[The Supreme Court has upheld the 5 lakh taka compensation for the victims of road accident on July 29 that sparked the protests.](https://www.thedailystar.net/news/city/dhaka-airport-road-accident-bangladesh-supreme-court-upholds-5-lakh-taka-compensation-to-victims-families-1618225)
+
+This thread will be locked for comments now. [If you want to help, see here.] (https://www.reddit.com/r/bangladesh/comments/94rfy3/how_you_can_help_please_read/)",1,t3_94a5wd,0,1533824849.0
+"Please upvote this thread:  How You Can Help. We are trying to organize and want this thread so people can ask for help or list ways others can help the people there.  
+https://www.reddit.com/r/bangladesh/comments/94rfy3/how_you_can_help_please_read/   ",21,t3_94a5wd,0,1533473053.0
+"u/rambobilai, let's try to get this news to globaltalk. We need the world to know this. I started a thread, if you want you can take over it.   
+
+
+[https://www.reddit.com/r/GlobalTalk/comments/94ivwt/bangladesh\_violence\_unleashed\_upon\_student/](https://www.reddit.com/r/GlobalTalk/comments/94ivwt/bangladesh_violence_unleashed_upon_student/) ",10,t3_94a5wd,0,1533386979.0
+Guys here from Nepal. I personally feel disgusted towards your government and I can’t bear reading the news anymore. All I can do it support you all via social media which I’ve done. I just want you guys to be strong and know that the whole world is in your support. It would also be helpful if you keep your further update in English or English + bangla. Thank you. Lots of love and courage.,11,t3_94a5wd,0,1533431042.0
+"[https://old.reddit.com/r/teenagers/comments/94kx7o/teenagers\_are\_being\_murdered\_raped\_and\_silenced/](https://old.reddit.com/r/teenagers/comments/94kx7o/teenagers_are_being_murdered_raped_and_silenced/)
+
+The teenagers of the world are coming to attention.
+
+Since the WiFi is being messed with, radio communication might be a good tool for live updates. Does anybody know anything about HAMs/private radio operators in Bangladesh?",10,t3_94a5wd,0,1533437209.0
+"If you can safely do so find as many videos and pictures of these thugs in action and spread them as far and wide as you possibly can. Get this stuff out there. Bring it to r/videos, r/pics , etc. Somewhere where there is lots of traffic and as many people as possible can find them. r/videos has a rule against post with political context but appeal to the mods and see if we can break through. I truly hope you guys can stay safe but stay brave and take as much action as you can.",11,t3_94a5wd,0,1533437592.0
+I a teenager with partial South Asian ethnicity am proud of my Bangladeshi brethren who are fighting against the inept government and their goons. ,10,t3_94a5wd,0,1533491511.0
+"I've added more of the archives to my server.  
+
+http://uovalor.com.d.appdev.loc/misc/bangladesh-2018/farmingbasics.html
+
+I feel helpless watching this unfold, it's just so terrible, so it's the least I can do I suppose.  My server is in Canada so it adds a bit more network diversity in case others get censored. 
+
+If there's specific things I missed that should be on there let me know and I can add it. ",11,t3_94a5wd,0,1533528783.0
+Well there goes the freedom Bangladeshi people fought for aginst Pakistan...,10,t3_94a5wd,0,1533583620.0
+"I think the /r/worldnews/ mods removed this thread:  
+https://www.reddit.com/r/worldnews/comments/94qb7m/bangladesh_government_is_at_war_with_its_children/  
+
+Can someone check? If they did, we need to ask the mods to undelete it.     
+
+**When I look at /r/worldnews/ the post has been removed. it's gone**   
+
+I am guessing people who didn't like the title sent many reports and the mods just followed their requests and removed it. But lives are at stake and that thread should not be removed. Also, it's not right to remove a post with 4000 upvotes.",20,t3_94a5wd,0,1533472467.0
+"count so far, 115 students injured in today's protest https://www.yahoo.com/news/bangladesh-teens-block-roads-seventh-day-over-road-080713809.html",9,t3_94a5wd,0,1533399908.0
+"I'm looking for further news on the 40-50 minor girls who were said to be raped in the AL's Dhanmondi office. Are they from Rifles? Would it be possible for someone to point me to a news source? I had a link, but I seem to have misplaced it.  
+
+Thanks.",9,t3_94a5wd,0,1533589910.0
+"""Attention guys!!
+Everyone please remove all kinds of anti-police, anti-student league or anti government Facebook status. Every bachelor home is being searched specifically Facebook apps, WhatsApp apps and mobile gallery. Currently I live in Norda, Sarkar Bari. And my area is totally under the control of police. So guys, please stay safe and erase everything from your Facebook wall and mobile gallery.""
+
+https://imgur.com/a/i1SHN72",9,t3_94a5wd,0,1533747126.0
+"They are being attacked again! More viciously now 
+
+https://www.facebook.com/avisheksharma.pranto/videos/1709179862527928/ ",8,t3_94a5wd,0,1533454165.0
+Why are none of the videos on the live page loading for me?,10,t3_94a5wd,0,1533501281.0
+Why Bangladesh protests are not just about road safety https://m.dw.com/en/why-bangladesh-student-protests-are-not-just-about-road-safety/a-45007297?maca=en-Facebook-sharing&xtref=http%253A%252F%252Fm.facebook.com%252F,10,t3_94a5wd,0,1533748526.0
+"""The education minister has dismissed a plea from private university vice-chancellors (VCs) demanding release of students arrested during Monday's demonstrations, saying actions will be taken as per law against those committed crimes."" https://www.dhakatribune.com/bangladesh/education/2018/08/08/vcs-ask-for-release-of-students-minister-says-no",10,t3_94a5wd,0,1533750724.0
+Anyone have update if protestors are still coming out today??,10,t3_94a5wd,0,1533425574.0
+"Is my understanding of the situation correct?
+
+About a week ago students started protesting the government giving bus drivers licenses that didn’t deserve them, or were under age, therefore making the roads unsafe. The protest we’re sparked because two high school students were killed by buses. And then I believe four women were raped? And now protesters are being shot out with live rounds despite being peaceful/checking licenses. The Internet has also been shut off for most of the country. 
+
+I’m trying to get the full story, but all of the news articles appear to be several days old and don’t include any of the police retaliation. 
+
+Edit: I believe there was also a text message that went  out to everyone in the country stating that reports of killing/ rape were falsified and anyone spreading rumors should be reported to the government. ",8,t3_94a5wd,0,1533435570.0
+[deleted],10,t3_94a5wd,0,1533436959.0
+[deleted],7,t3_94a5wd,0,1533450827.0
+Posted this on r/pics to spread more awareness https://www.reddit.com/r/pics/comments/94qz2t/freelance_journalist_getting_attacked_during/?ref=share&ref_source=link,9,t3_94a5wd,0,1533465511.0
+"Nas Daily posted about the student protest-
+https://m.facebook.com/story.php?story_fbid=1116405758511575&id=574719552680201",7,t3_94a5wd,0,1533465679.0
+This is where the locations of shelters leaked. Report. https://m.facebook.com/groups/natashanawar/,7,t3_94a5wd,0,1533465715.0
+Make pepper water to defend yourselves and spray it in any attackers eyes. ,8,t3_94a5wd,0,1533495040.0
+Change.org has been blocked by the government.,9,t3_94a5wd,0,1533586735.0
+"Police raiding hostels in Bashundhara right now -
+
+https://imgur.com/gallery/4MpEdxu
+
+https://imgur.com/dONgyr7
+
+https://imgur.com/THQnHq8",7,t3_94a5wd,0,1533749031.0
+"The raid in Bashundhara has ended. No one has been arrested, part of regular police action in the capital - DMP (Dhaka metro police) Commissioner https://imgur.com/a/1LjJgEn",8,t3_94a5wd,0,1533754561.0
+My god I hope the user who posted all the content originally about this is alright ,6,t3_94a5wd,0,1533437018.0
+I asked a question on AskReddit to contribute to the spreading awareness. Even if one person more knows about it it is worth it. Link https://www.reddit.com/r/AskReddit/comments/94qkuk/serious_are_you_aware_of_whst_is_happening_in/?ref=share&ref_source=link,7,t3_94a5wd,0,1533459723.0
+"I am suggesting/asking for volunteers to help organize this subreddit more - with a few key threads (""How You can Help"" and a ""Latest Updates"" thread, which could just be this mega thread.)   [Full Details are here in a new thread](https://www.reddit.com/r/bangladesh/comments/94r3wa/i_urge_you_to_get_organized_here_on_reddit_to/).  
+
+I feel like a lot more could be done to get help for the students. Hopefully a handful of people can help to set this up. You want many people on reddit to know they can come here, get the latest info, and see how they can help out.  ",8,t3_94a5wd,0,1533467346.0
+Can anybody say what's happening to the dead bodies? I heard they were burned? ,7,t3_94a5wd,0,1533493239.0
+[deleted],7,t3_94a5wd,0,1533547872.0
+"The gov seems intent on scapegoating innocent students, while the BCL thugs are free to go. Here's the [DailyStar article on it](https://www.thedailystar.net/news/city/22-private-university-students-remanded-for-vandalism-attacks-on-police-1617301). I'm worried that they'll try to blame for all the violence including, the attacks on journalists  :-( ",7,t3_94a5wd,0,1533671029.0
+"Section 57 of the ICT law, which has been used to file cases against students and journalists or citizens who have made social media posts about anything that may be considered ""anti-state"" or ""anti-govt"" is getting an overhaul. But with sth even worse. - https://www.thedailystar.net/frontpage/government-decides-scrap-section-57-digital-security-act-2017-1498357",6,t3_94a5wd,0,1533748941.0
+"Reddit live thread has been closed. Please follow this thread for updates on the situation. The comments are suggested to be sorted by new so you will be able to see new info on the top of the comments. Please thread your comments so updates dont get buried. 
+
+If you want to help. please see this thread by u/BengaliAbroad - https://www.reddit.com/r/bangladesh/comments/94rfy3/how_you_can_help_please_read/",21,t3_94a5wd,0,1533441920.0
+France24 coverage of attack on student protesters https://www.facebook.com/groups/2212217998/permalink/10156452051227999/,6,t3_94a5wd,0,1533411008.0
+police firing on protesters - https://www.youtube.com/watch?v=NtEtF-KRanY,7,t3_94a5wd,0,1533413491.0
+"Here is a link to the YouTube Channel with all the videos from the protests and aftermath:  
+
+
+[https://www.youtube.com/channel/UCumgAxLin6E3BdML21RR6DQ/videos](https://www.youtube.com/channel/UCumgAxLin6E3BdML21RR6DQ/videos)",5,t3_94a5wd,0,1533428524.0
+[deleted],6,t3_94a5wd,0,1533484842.0
+[deleted],7,t3_94a5wd,0,1533536955.0
+Indian news channels talking about the US envoys vehicles getting attacked. And that the clashes between police and students have turned violent. That's about it.. ,6,t3_94a5wd,0,1533538085.0
+"[Photographer crack down , Guardian](https://www.theguardian.com/world/2018/aug/06/famed-bangladeshi-photographer-held-over-road-protest-comments?CMP=share_btn_fb)",6,t3_94a5wd,0,1533553328.0
+"An innocent boy has been taken by police from a shop near Bashundhara [r/A](https://www.reddit.com/r/A)
+
+[https://www.facebook.com/ilovetuhin/videos/382105712322038/](https://www.facebook.com/ilovetuhin/videos/382105712322038/)",5,t3_94a5wd,0,1533554392.0
+I just read the statement from the EU and it seems pretty encouraging does it not? I don’t know enough about international relations so I have no idea how much pressure the EU could conceivably exert over the Bangladeshi government,6,t3_94a5wd,0,1533636901.0
+"I just learned about this.... I'm so angry and outraged and I have no idea how I could help and want to. 
+
+What can I do?",6,t3_94a5wd,0,1533650258.0
+Could we create a gofundme to raise bail money for the students who can't afford it? Is there anyway to ensure the money would reach the right people?,7,t3_94a5wd,0,1533654188.0
+[JU protesting against the attack](https://www.jugantor.com/campus/77168/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%87-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B2-%E0%A6%9C%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%80%E0%A6%B0%E0%A6%A8%E0%A6%97%E0%A6%B0),5,t3_94a5wd,0,1533405766.0
+"I'm currently backing up all of the files to bangladesh.medicgoalie84.com in case they get taken down elsewhere. Please access through a proxy to encrypt your connection.
+
+Edit: It is all up now. Sorry about the proxy bit, dedicated IPs are not cheap through my host. I'm working on it though, in the meanwhile connect through a proxy and you'll be fine.",4,t3_94a5wd,0,1533431903.0
+Dhaka streets deserted - very few students seen on the streets and police presence seems normal. No public buses are running yet. https://www.dhakatribune.com/bangladesh/dhaka/2018/08/05/streets-of-dhaka-giving-off-deserted-look,6,t3_94a5wd,0,1533448006.0
+"Live video of the protest in Shahabag
+https://m.facebook.com/story.php?story_fbid=623849014681671&id=100011697338362",6,t3_94a5wd,0,1533454682.0
+Would rehosting the videos from the Mega drive to Youtube make it easier for subtitles and translation functionalities? I can do the reuploading and then proceed to translate things there.,6,t3_94a5wd,0,1533460196.0
+"5 including an AP journalist got beaten up by BCL
+
+https://www.dhakatribune.com/bangladesh/2018/08/05/journalists-beaten-up-by-chhatra-league",5,t3_94a5wd,0,1533464995.0
+"According to Dhaka Tribune at least 20-25 journalists were beaten up.
+https://www.dhakatribune.com/bangladesh/2018/08/05/journalists-beaten-up-by-chhatra-league",4,t3_94a5wd,0,1533470361.0
+"NSU, AIUB, IUB students got brutally beaten by Police in Basundhara Residential Area. SSF and Detective Branch are surrounding the area alongside with them. Students were pushed back to Grameenphone centre. Several rounds of rubber bullets and tearshell  were shot to the protesters.
+It's 4 PM in BD(GMT+6) time.",5,t3_94a5wd,0,1533550600.0
+Driver confesses competition between 2 buses killed school students - https://www.dhakatribune.com/bangladesh/court/2018/08/08/driver-confesses-competition-between-buses-killed-2-students,5,t3_94a5wd,0,1533746922.0
+[deleted],18,t3_94a5wd,0,1533480540.0
+"Students of AUST are still stuck at the campus. Unless the authority of the varsity provides 30-40 students to the police, the police will not leave the area. The teachers and authority rejected the proposal. But the police then scared them off by saying - BCL(pro-government youth goon organisation) is out there. They(BCL) will attack inside the campus when the night starts.
+
+  
+
+
+Source from a student of AUST",11,t3_94a5wd,0,1533560670.0
+"According to Campus Times, YouTuber Salman Muqtadir has been arrested. 
+(**Edit:I'm kinda confused about the information on this news**)
+http://campustimes.press/article/bangladesh/10245/%E0%A6%87%E0%A6%89%E0%A6%9F%E0%A6%BF%E0%A6%89%E0%A6%AC-%E0%A6%B8%E0%A7%87%E0%A6%B2%E0%A6%BF%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%9F%E0%A6%BF-%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%9F%E0%A6%95#.W2dAQE90fdE.facebook",12,t3_94a5wd,0,1533495929.0
+"armed ""unidentified youth"" shooting at the protesters - https://streamable.com/d6t9c",8,t3_94a5wd,0,1533398840.0
+"[https://www.reddit.com/r/AlJazeera/comments/94j3xd/save\_our\_students/](https://www.reddit.com/r/AlJazeera/comments/94j3xd/save_our_students/)
+
+[https://www.reddit.com/r/worldevents/comments/94a9b9/mother\_feeding\_students\_protesting\_for\_road/](https://www.reddit.com/r/worldevents/comments/94a9b9/mother_feeding_students_protesting_for_road/)
+
+[https://www.reddit.com/r/worldnews/comments/94a0cs/nationwide\_student\_protests\_enter\_5th\_day\_in/](https://www.reddit.com/r/worldnews/comments/94a0cs/nationwide_student_protests_enter_5th_day_in/)
+
+[https://www.reddit.com/r/worldnews/comments/94a04m/bangladesh\_students\_protest\_over\_deaths\_of\_pals/](https://www.reddit.com/r/worldnews/comments/94a04m/bangladesh_students_protest_over_deaths_of_pals/)
+
+[https://www.reddit.com/r/worldnews/comments/949ztn/bangladeshi\_students\_bring\_dhaka\_to\_a\_standstill/](https://www.reddit.com/r/worldnews/comments/949ztn/bangladeshi_students_bring_dhaka_to_a_standstill/)
+
+[https://www.reddit.com/r/worldnews/comments/949zl8/teenagers\_bring\_parts\_of\_bangladesh\_to\_a\_halt\_to/](https://www.reddit.com/r/worldnews/comments/949zl8/teenagers_bring_parts_of_bangladesh_to_a_halt_to/)
+
+[https://www.reddit.com/r/worldnews/comments/947dch/bangladesh\_teenagers\_demanding\_road\_safety/](https://www.reddit.com/r/worldnews/comments/947dch/bangladesh_teenagers_demanding_road_safety/)
+
+[https://www.reddit.com/r/worldnews/comments/9473pp/bangladesh\_mass\_student\_protests\_after\_deadly/](https://www.reddit.com/r/worldnews/comments/9473pp/bangladesh_mass_student_protests_after_deadly/)
+
+[https://www.reddit.com/r/worldevents/comments/93z6ak/nsfwaftermath\_of\_police\_firing\_on\_peaceful/](https://www.reddit.com/r/worldevents/comments/93z6ak/nsfwaftermath_of_police_firing_on_peaceful/)
+
+[https://www.reddit.com/r/worldevents/comments/93z5e1/bangladeshi\_students\_protest\_for\_safer\_roads/](https://www.reddit.com/r/worldevents/comments/93z5e1/bangladeshi_students_protest_for_safer_roads/)
+
+[https://www.reddit.com/r/FaithInHumanity/comments/94adge/female\_students\_in\_bangladesh\_helping\_their\_male/](https://www.reddit.com/r/FaithInHumanity/comments/94adge/female_students_in_bangladesh_helping_their_male/)
+
+[https://www.reddit.com/r/FaithInHumanity/comments/94a30i/faith\_lost/](https://www.reddit.com/r/FaithInHumanity/comments/94a30i/faith_lost/)
+
+[https://www.reddit.com/r/worldevents/comments/949xsq/students\_cleaning\_the\_streets\_after\_their/](https://www.reddit.com/r/worldevents/comments/949xsq/students_cleaning_the_streets_after_their/)
+
+[https://www.reddit.com/r/bangladesh/comments/9479po/trying\_to\_spread\_awareness\_internationallydoing/](https://www.reddit.com/r/bangladesh/comments/9479po/trying_to_spread_awareness_internationallydoing/)
+
+[https://www.reddit.com/r/news/comments/940ys8/peaceful\_students\_protesting\_for\_proper\_road/](https://www.reddit.com/r/news/comments/940ys8/peaceful_students_protesting_for_proper_road/)
+
+[https://www.reddit.com/r/rage/comments/93zwwx/nsfwprotesters\_fighting\_for\_road\_safety\_being\_run/](https://www.reddit.com/r/rage/comments/93zwwx/nsfwprotesters_fighting_for_road_safety_being_run/)
+
+All of the posts we made about the protests here since new post got removed",4,t3_94a5wd,0,1533393918.0
+Al Jazeera coverage - https://www.facebook.com/ireyadrahman/posts/2153360241588007,3,t3_94a5wd,0,1533404246.0
+Diaspora guy sending lots of love. I lived in Malibagh for 8 years and just came back after visiting for a month. Dhaka's got a piece of my heart. Bangladesh jindabad. ,4,t3_94a5wd,0,1533449063.0
+"All videos from the Mega Drive archive is being uploaded to [this link](https://www.youtube.com/channel/UCEo0_Z_C8BNAFlbVgKxRiCQ). Public translation is activated, please contribute translations to any video that isn't already translated.
+
+Edit: If someone can give a good description to use in all the video, it would be appreciated.",4,t3_94a5wd,0,1533463791.0
+"One woman's testimony
+https://m.facebook.com/story.php?story_fbid=1029097537264056&id=100004914577645&ref=m_notif&notif_t=group_comment
+
+
+",3,t3_94a5wd,0,1533464904.0
+"A photographer was attacked by BCL (post with pics)-
+https://m.facebook.com/story.php?story_fbid=2111160452228936&id=100000050062377",6,t3_94a5wd,0,1533468417.0
+horrible stuff really,5,t3_94a5wd,0,1533512501.0
+"Deputy commissioner of Dhaka Metro Police confirm ""bloc raid"" in Bashundhara R/A, although not disclosing how many have been arrested (article in bengali) - https://bangla.dhakatribune.com/bangladesh/2018/08/08/1994/%E0%A6%AC%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%B0%E0%A6%BE-%E0%A6%86%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%95-%E0%A6%8F%E0%A6%B2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E2%80%98%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%95-%E0%A6%B0%E0%A7%87%E0%A6%87%E0%A6%A1%E2%80%99",5,t3_94a5wd,0,1533750412.0
+u/farhadjaman is an account full of images and video of the clashes and deaths.,6,t3_94a5wd,0,1533428226.0
+"[Dhaka Tribune on Jigatola Attack](https://bangla.dhakatribune.com/bangladesh/2018/08/04/1857/%E0%A6%9C%E0%A6%BF%E0%A6%97%E0%A6%BE%E0%A6%A4%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%AA%E0%A6%B0-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE,-%E0%A6%86%E0%A6%B9%E0%A6%A4-%E0%A7%AF)",3,t3_94a5wd,0,1533394044.0
+Channel 24 live coverage of attack on the students shut down by BCL - https://m.facebook.com/story.php?story_fbid=2184430608494031&id=100007813397097,3,t3_94a5wd,0,1533395985.0
+Jigatola Jubo League office surrounded by general public - https://www.facebook.com/BD.demoCrazy/videos/2127920063907482/?hc_ref=ARTDI-mhRAHFvDh00sNJdrta8cwyAlVdI_t8tjK_p2qlrTzwheztGoKaItj6RBw9NK8,3,t3_94a5wd,0,1533396600.0
+live fb video from inside Popular Hospital in Dhanmondi where some of the injured protesters are being treated - https://www.facebook.com/TahseeNation/videos/1807256019368606/UzpfSTEwMDAwOTkxNzU1Mjc5MDo3MDgzMDkwMzk1MDk2NzU/,3,t3_94a5wd,0,1533397955.0
+A female student shares what happened today on her Facebook live- https://www.facebook.com/groups/dsdbangladesh/permalink/1854067001378272/,3,t3_94a5wd,0,1533398044.0
+Dhaka tribune website right now - https://imgur.com/a/ipspEDO,3,t3_94a5wd,0,1533401091.0
+Voice of America coverage - https://www.facebook.com/voiceofamerica/videos/10156009712573074/?hc_ref=ARQ3-fkDxcl0mi6acNbMZQ3Yjyooe7J-DYFsAm_avVLkqX8mDoGo7yY43IpnI3rGc5M,3,t3_94a5wd,0,1533403058.0
+"IUB, AIUB, NSU students protest against BCL in Bashundhara -https://www.facebook.com/pusfRQ/videos/503885630063591/?hc_ref=ARQpviGHKmrc0W6aFBylOYb5CvHJjsT60qNPlzYdf9mfT1kSUxUoBiZDn0soBWAgz-I",3,t3_94a5wd,0,1533406245.0
+"Mirror of photos and videos
+
+https://drive.google.com/drive/folders/1RE6HnE9-g8XDcLBDs0IDpHRIrzpQmM5q?usp=sharing",3,t3_94a5wd,0,1533421550.0
+"Protest in Banani right now.  
+[https://www.facebook.com/PrivateUSAB/videos/1741458482640490/](https://www.facebook.com/PrivateUSAB/videos/1741458482640490/)",3,t3_94a5wd,0,1533452404.0
+"Does anyone know whether the internet/ broadband in Bangladesh is working?  Yesterday, the gov threatened to bring it down. ",3,t3_94a5wd,0,1533617419.0
+Reports coming in that buildings where bachelors rent apts in Bashundhara are being raided by the police. ,3,t3_94a5wd,0,1533747030.0
+What is happening ? BBC not reporting on this,9,t3_94a5wd,0,1533480160.0
+ফেবুতে শুনলাম আন্দোলনকারীদের কয়েকজনের নাকি চোখ তুলে দেওয়া হয়েছে আর ৪টা মেয়েকে রেপ করা হয়েছে। জিগাতলায় খুবই ভয়াবহ অবস্থা।,2,t3_94a5wd,0,1533383817.0
+"Another video of Chhatra League's attack and injured students-
+https://m.facebook.com/story.php?story_fbid=10209488745974482&id=1801132983",2,t3_94a5wd,0,1533403077.0
+/u/VPM43 delivers updates of protest along with background and context - https://www.reddit.com/r/worldnews/comments/94ivyd/school_students_have_been_protesting_in_demand/e3lk9qk/,2,t3_94a5wd,0,1533407245.0
+"Students attacked in moulavi Bazar, sylhet https://www.facebook.com/wahiduzzaman.net/videos/2244763065540957/",2,t3_94a5wd,0,1533410883.0
+"The Prime Minister of Bangladesh is LIVE now.
+
+[https://www.facebook.com/somoynews.tv/videos/1864665956959806/](https://www.facebook.com/somoynews.tv/videos/1864665956959806/)",2,t3_94a5wd,0,1533444684.0
+[deleted],2,t3_94a5wd,0,1533610161.0
+stand-off at Bashundhara gate right now - https://www.facebook.com/megha.othernamesaretaken/posts/1702512213131426,2,t3_94a5wd,0,1533401795.0
+!RemindMe 24 hours,2,t3_94a5wd,0,1533428630.0
+Sheikh Hasina is the utlimate cancer. Hope she dies a horrific death one day,2,t3_94a5wd,0,1533605424.0
+"Protesters attacked by BCL thugs in jigatola - https://m.facebook.com/story.php?story_fbid=1093258077513384&id=532453643593833
+
+https://m.facebook.com/story.php?story_fbid=2032126863486716&id=100000682671776
+
+
+https://m.facebook.com/story.php?story_fbid=1838872982861094&id=100002152291551
+
+https://m.facebook.com/story.php?story_fbid=10156502366977910&id=565192909
+
+https://m.facebook.com/story.php?story_fbid=1785177834901743&id=100002286324376
+
+https://m.facebook.com/story.php?story_fbid=879681258893366&id=100005544995145
+
+https://m.facebook.com/story.php?story_fbid=1852867858125764&id=100002077034265
+
+https://m.facebook.com/story.php?story_fbid=10216848408506507&id=1352959383
+
+https://m.facebook.com/story.php?story_fbid=10160759974000319&id=518015318
+
+",1,t3_94a5wd,0,1533384928.0
+"Prothom Alo news report on attack on protesters - http://www.prothomalo.com/bangladesh/article/1546936/%E0%A6%9C%E0%A6%BF%E0%A6%97%E0%A6%BE%E0%A6%A4%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE
+
+Note that the cops did nothing to prevent it ",1,t3_94a5wd,0,1533387937.0
+"[https://www.reddit.com/r/bangladesh/comments/94jk10/links\_of\_posts\_on\_the\_protests\_for\_those\_who\_wish/](https://www.reddit.com/r/bangladesh/comments/94jk10/links_of_posts_on_the_protests_for_those_who_wish/)
+
+This has links to all the posts we made recently on reddit about the protests.",1,t3_94a5wd,0,1533393681.0
+more reports from injured protesters - https://www.facebook.com/tsonik/videos/10217164940059318/?hc_ref=ARS4CO6JG40O8CNPfmD5Uqx4oV6FcT23yidEB2A_lZk1DMWLWP22M9eUmCFaHRjL9VU,1,t3_94a5wd,0,1533398093.0
+confirmed BCL attackers - https://www.thedailystar.net/city/bcl-ruling-party-men-attack-student-protest-road-safety-jigatola-dhanmondi-dhaka-1615828,1,t3_94a5wd,0,1533398947.0
+"Basundhara area
+https://www.facebook.com/100024707499257/posts/238316837001898/",1,t3_94a5wd,0,1533399944.0
+"[https://www.thedailystar.net/country/bangladesh-mobile-internet-speed-brought-down-across-for-24hrs-1615909](https://www.thedailystar.net/country/bangladesh-mobile-internet-speed-brought-down-across-for-24hrs-1615909)
+
+From 4G to 2G.",1,t3_94a5wd,0,1533413222.0
+https://petition.parliament.uk/petitions/226623/sponsors/new?token=wNccf33oyipDapD3M,1,t3_94a5wd,0,1533431334.0
+!RemindMe 12 hours,1,t3_94a5wd,0,1533432813.0
+Short video summary of the story so far:[https://www.youtube.com/watch?v=fn6mGqlC95c](https://www.youtube.com/watch?v=fn6mGqlC95c),1,t3_94a5wd,0,1533445399.0
+[removed],1,t3_94a5wd,0,1533464723.0
+[https://www.thedailystar.net/city/north-south-university-nsu-students-comes-under-attack-on-campus-demanding-justice-for-safe-road-1616668](https://www.thedailystar.net/city/north-south-university-nsu-students-comes-under-attack-on-campus-demanding-justice-for-safe-road-1616668),1,t3_94a5wd,0,1533563826.0
+"I hope this doesn't sound really insensitive, because I promise it isn't supposed to.
+
+So I get that they're fighting for better road laws. If *everyone* is in agreement on this, and that's what it seems like to me, can't they all just make up their own laws? I mean, there aren't road laws now, so nothing that they do on the road will get them arrested, so I feel like they could all work towards getting some 'ground rules' out there so that they are safer, and avoid some problems with the government.",1,t3_94a5wd,0,1533433512.0
+"So this is all over someone getting run over by a bus...  
+
+
+Its not a political thing, its not a religious thing, its just a mob looking to lynch someone.  
+
+
+Fuck this Hacktivist bullshit.",-54,t3_94a5wd,0,1533488794.0
+[deleted],-36,t3_94a5wd,0,1533545265.0
+awesome idea,30,t1_e3lcxt7,1,1533400248.0
+Yes! That is exactly what we need. ,18,t1_e3lcxt7,1,1533404900.0
+"Bhalo idea, but keu pathor churte/guli chalate pare drone er opor.
+If possible, find superzoom cameras and maybe try to get videos from the windows of nearby buildings. ",13,t1_e3lcxt7,1,1533426441.0
+Have a bunch rotate shifts every few hours for continuous coverage.,6,t1_e3lcxt7,1,1533432545.0
+[White house petition to Condemn state-sponsored terrorism in Bangladesh](https://petitions.whitehouse.gov/petition/condemn-state-sponsored-terrorism-bangladesh),2,t1_e3lcxt7,1,1533498163.0
+"Excellent advice, if their government is tracking these people down through the internet this could save lives. Keep it up.",8,t1_e3mdu45,1,1533435786.0
+ZenMate and Ultrasurf are other good free VPN alternatives for PC/MAC.,8,t1_e3mdu45,1,1533431879.0
+"If I could upvote you multiple times, I would. This is one amazing advice. 
+
+**""Save your own ass too, people.""**",2,t1_e3mdu45,1,1533459035.0
+[White house petition to Condemn state-sponsored terrorism in Bangladesh](https://petitions.whitehouse.gov/petition/condemn-state-sponsored-terrorism-bangladesh),2,t1_e3mdu45,1,1533498188.0
+how do we get international news agencies to report on the latest news of violence? ,34,t1_e3je5pb,1,1533389797.0
+Why aren’t adults taking to the streets?! I don’t understand.. ,14,t1_e3je5pb,1,1533404944.0
+Telegraph have reported as well - https://www.telegraph.co.uk/news/2018/08/04/students-injured-clashes-bangladesh-teen-protests-turn-violent/,10,t1_e3je5pb,1,1533420444.0
+A short translation?,6,t1_e3m1bk4,1,1533418906.0
+"can confirm, 3g 4g is down. broadband is also sluggish.",30,t1_e3lj0rg,1,1533399358.0
+Mobile internet speed has been brought down for 24 hrs,11,t1_e3lj0rg,1,1533402236.0
+Ain't that peachy. The Bangladeshi government is actively brute forcing passwords to erase the video. I wondered why so many had vanished so fast. I'll keep that in mind. ,17,t1_e3n1607,1,1533462780.0
+"Those who are alleging that these are all rumours: how do they explain this video? If this is acting, the student in the video should audition for Hollywood. 
+
+The much more prosaic and depressing explanation is that what he describes did happen, and the news media for whatever reason hasn't or chosen not to pick it up.",8,t1_e3lhk27,1,1533436035.0
+"Broken link, is the content taken down or is there a faulty link? ",1,t1_e3lhk27,1,1533593686.0
+can you post a screenshot of what facebook looks like right now?,13,t1_e3llt6d,1,1533399869.0
+I can still access Facebook.,2,t1_e3llt6d,1,1533400217.0
+https://www.google.com/amp/s/www.bbc.com/news/amp/world-asia-45074384,5,t1_e3neomk,1,1533485627.0
+White dressed people***,7,t1_e3nl7np,1,1533490229.0
+"^(Hi, I'm a bot for linking direct images of albums with only 1 image)
+
+**https://i.imgur.com/XjODQmr.jpg**
+
+^^[Source](https://github.com/AUTplayed/imguralbumbot) ^^| ^^[Why?](https://github.com/AUTplayed/imguralbumbot/blob/master/README.md) ^^| ^^[Creator](https://np.reddit.com/user/AUTplayed/) ^^| ^^[ignoreme](https://np.reddit.com/message/compose/?to=imguralbumbot&subject=ignoreme&message=ignoreme) ^^| ^^[deletthis](https://np.reddit.com/message/compose/?to=imguralbumbot&subject=delet%20this&message=delet%20this%20e3u8tc8) ",3,t1_e3u8t4h,1,1533753053.0
+Thank you!!! could you please send this message to the other contributors on the live update thread pls?,8,t1_e3m8cyn,1,1533425204.0
+[deleted],3,t1_e3m8cyn,1,1533465113.0
+Is it just me or did DT's site crash? Reddit hug?,7,t1_e3l98bd,1,1533402204.0
+[deleted],5,t1_e3or1rz,1,1533537032.0
+I'm really terrified to hear this and still can't believe this.,7,t1_e3mz5ek,1,1533458033.0
+'burning alive' might not be true. But CL are attacking students with sharp weapons where the police are observing from the sideline,7,t1_e3mz5ek,1,1533460240.0
+We're back to 2G. Too much for 'Digital Bangladesh' :),10,t1_e3mzsi7,1,1533460632.0
+"Someone with time can help out with the Live Thread as a mod - they don't need to be in Bangladesh.   
+
+Other people can message the Live Thread mods and ask them to put up new, key news that they find out about. Or redditors can get info from inside Bangladesh and give it to the thread mods to put up on the thread.",6,t1_e3mzsi7,1,1533459476.0
+"7:06 AM EDT happens when this comment is 17 hours and 14 minutes old.
+
+You can find the live countdown here: https://countle.com/7_b234090w
+
+---
+
+I'm a bot, if you want to send feedback, please comment below or send a PM.",0,t1_e3nnd8d,1,1533491499.0
+Talk about a rough overview....,9,t1_e3nswvy,1,1533497814.0
+It's been censored for the entire past day. Youtube has been deleting videos. Facebook has been deleting posts. It's like an entire media blackout.,15,t1_e3o0xc4,1,1533507675.0
+"Here are some events that have occurred or are occurring (NSFW warning):
+
+1. **Insensitive Comment made by Shahjahan Khan, a man who has ties with powerful transport union.**
+
+*PARAPHRASED QUOTE:* ""Khan questioned why there was such an uproar over two children dying in Dhaka but no reaction to the 33 people killed in a bus crash in India the previous day. He was referring to the accident in Maharashtra's Raigad district, where a bus rolled down a deep gorge and killed nearly everyone on board.
+
+What made matters worse was that he had 'smiles that would not go away', according to an article in the Dhaka Tribune.""
+
+*LINK TO QUOTE:* [https://www.firstpost.com/world/dhaka-comes-to-standstill-as-students-hold-massive-protests-over-poor-road-safety-sheikh-hasina-promises-reforms-in-phases-4893831.html](https://www.firstpost.com/world/dhaka-comes-to-standstill-as-students-hold-massive-protests-over-poor-road-safety-sheikh-hasina-promises-reforms-in-phases-4893831.html)
+
+*LINK TO VIDEO OF 'SMILE' (0:26):* [https://www.youtube.com/watch?v=fn6mGqlC95c](https://www.youtube.com/watch?v=fn6mGqlC95c)
+
+**2. Students Injured by Police.**
+
+*LINK TO ARTICLE:* [https://www.yahoo.com/news/bangladesh-teens-block-roads-seventh-day-over-road-080713809.html](https://www.yahoo.com/news/bangladesh-teens-block-roads-seventh-day-over-road-080713809.html)
+
+*LINK TO ARTICLE:* [https://www.bbc.com/news/world-asia-45074384](https://www.bbc.com/news/world-asia-45074384)
+
+**3. Bangladesh President of Bus Association admitting to the ongoing brutality in the streets, despite government claims of nothing happening.**
+
+*LINK TO ADMISSION:* [https://www.youtube.com/watch?v=7Gu7KU8c924&feature=youtu.be](https://www.youtube.com/watch?v=7Gu7KU8c924&feature=youtu.be)
+
+*LINK TO GOVERNMENT TEXT MESSAGE:* [https://imgur.com/a/EhIVoCt](https://imgur.com/a/EhIVoCt)
+
+*TRANSLATION:*
+
+""The murders and rapes in the Jigatola area of the capital have no truth to them. The subject matter is completely false. Do not succumb to these. Help the police fight the spreaders of false news by sharing information about them to us. - Home Ministry""
+
+**4. Beating of a woman.**
+
+*LINK OF PHOTO:* [https://i.imgur.com/oApmp6m.jpg](https://i.imgur.com/oApmp6m.jpg)
+
+**5. Tear gas shells fired on protesters.**
+
+*LINK OF VIDEO:* [https://streamable.com/i5bgd](https://streamable.com/i5bgd)
+
+**6. Machete/Metal Rod wielding government affiliates.**
+
+*LINK TO PHOTO:* [https://imgur.com/a/QrwbYML](https://imgur.com/a/QrwbYML)
+
+*LINK TO VIDEO:* [https://www.facebook.com/voiceofamerica/videos/10156012248668074/?hc\_ref=ARS2I3dRMzHK5ZuUarcUGmQ6Mqetu0VUFKO7o6AxT7spQg3DJOaJCJGI7xrBYNVTkTw](https://www.facebook.com/voiceofamerica/videos/10156012248668074/?hc_ref=ARS2I3dRMzHK5ZuUarcUGmQ6Mqetu0VUFKO7o6AxT7spQg3DJOaJCJGI7xrBYNVTkTw)
+
+**7. Dead woman on streets.**
+
+*LINK TO VIDEO:* [http://13.58.156.176/Cloud%20folder%20backups/Students%20get%20attacked%20by%20chatro%20league/video-1533389307.mp4](http://13.58.156.176/Cloud%20folder%20backups/Students%20get%20attacked%20by%20chatro%20league/video-1533389307.mp4)
+
+**8. Picture of boy whose eyes were gauged out.**
+
+*LINK TO PHOTO:* [https://i.redd.it/gkrn4e7i23e11.jpg](https://i.redd.it/gkrn4e7i23e11.jpg)
+
+**9. Photo of male students protecting females while protesting in light of recent rape allegations.**
+
+*LINK TO PHOTO:* [https://i.redd.it/7otmxyd8e4e11.jpg](https://i.redd.it/7otmxyd8e4e11.jpg)
+
+**10. Associated Press (AP) photographer A M Ahad beaten in Dhanmondi (check towards mark 0:20).**
+
+*LINK TO ASSAULT VIDEO:* [https://streamable.com/7eow2](https://streamable.com/7eow2)
+
+*LINK TO PHOTO:* [https://d30fl32nd2baj9.cloudfront.net/media/2018/08/05/a-m-ahad-journalist-attack-05082018-0001.jpg/ALTERNATES/w640/a-m-ahad-journalist-attack-05082018-0001.jpg](https://d30fl32nd2baj9.cloudfront.net/media/2018/08/05/a-m-ahad-journalist-attack-05082018-0001.jpg/ALTERNATES/w640/a-m-ahad-journalist-attack-05082018-0001.jpg)
+
+*LINK TO ARTICLE:* [https://www.dhakatribune.com/bangladesh/dhaka/2018/08/06/ap-photojournalist-am-ahad-beaten-up](https://www.dhakatribune.com/bangladesh/dhaka/2018/08/06/ap-photojournalist-am-ahad-beaten-up)
+
+**11. Video of man claiming four women have been raped.**
+
+*LINK OF VIDEO:* [http://13.58.156.176/Cloud%20folder%20backups/Students%20get%20attacked%20by%20chatro%20league/38290246\_275343926608274\_3675125290947837952\_n.mp4](http://13.58.156.176/Cloud%20folder%20backups/Students%20get%20attacked%20by%20chatro%20league/38290246_275343926608274_3675125290947837952_n.mp4)
+
+*TRANSLATION:* Reporter: Bro, which college are you from? \[College in Bangladesh refers to high-school.\] Victim: I was a student of Birshreshta Munshi Abdur Rouf School, but I graduated recently. R: That means you're a high school graduate right now? Okay, so where were you attacked? V: We were first attacked at Jigatola where 4 girls were directly raped. \[He repeats this several times, and the reporter asks him to confirm several times, as if in disbelief. R: Where are they now? V: They've disappeared. R: Okay, so we've heard that someone died right on the spot? V: \[nods\] We've received information that 4 people were shot and one of them- R: Were the police using rubber bullets? V: Not rubber bullets, live ammunition. Rubber bullets don't penetrate. They only leave bruises. R: Okay, what is BGB \[Bangladesh Border Guard, a law-enforcement agency\] doing there? What is their stance? V: BGB has closed its gates. R: BGB closed its gates? Okay, are the general students still protesting there? \[At Jigatola\] V: Yes, and the students are in front of Popular Hospital. \[A nearby clinic.\] And Chatro League \[the student wing of armed men responsible for these attacks\] is right on the other side. R: Where are the Chatro League members? V: Jigatola bus stand. R: They took up positions in Jigatola bus stand? V: On all sides. Chatro League has surrounded the place, leaving us stranded in the middle. R: Have you had any contact with any key leaders of Chatro League since the morning? V: They're good. They're probably sitting in an air-conditioned room, watching TV while students are dying and they're laughing at the whole thing. R: Okay so if you have indeed spoken to them- V: We've had no contact with them so far. R: So you've never even had any communication with them? They didn't stop even once, and instead started attacking you? V: They did not stop. They simply attacked. R: Did you manage to identify them? Like who is attacking, and where they're from? Did any media outlets reach out? Do you have an estimate on the number of injured students? V: Over ten. Over ten were injured and four were shot, one of whom died immediately. Four girls were raped. R: The four girls you claim were raped, are they students of your college as well? V: No, they're from Rifles College.
+
+**12. Van running over student.**
+
+*LINK TO VIDEO:* [http://13.58.156.176/Other%20unsorted%20video%20evidence/Pick%20up%20Van%20Ran%20over%20Student.mp4](http://13.58.156.176/Other%20unsorted%20video%20evidence/Pick%20up%20Van%20Ran%20over%20Student.mp4)
+
+**13. Student being attacked.**
+
+*LINK TO VIDEO:*
+
+[http://13.58.156.176/Cloud%20folder%20backups/Students%20get%20attacked%20by%20chatro%20league/38541779\_241912763098001\_2965451506574163968\_n.mp4](http://13.58.156.176/Cloud%20folder%20backups/Students%20get%20attacked%20by%20chatro%20league/38541779_241912763098001_2965451506574163968_n.mp4)",12,t1_e3o4mjy,1,1533508517.0
+"This may change by tommorow, (for non-bengalis, I guess) go to CNN, BBC, FOX
+
+
+They rather be reporting on TRUMPTRUMPTRUMP, Demi Lovato",7,t1_e3o4mjy,1,1533516025.0
+"This is a well-sourced article on the events leading up to the riots.
+
+[https://bostonpewg.org/2018/08/05/on-aug-4th-the-bangladesh-government-tried-to-kill-children-for-demanding-road-safety-and-justice/](https://bostonpewg.org/2018/08/05/on-aug-4th-the-bangladesh-government-tried-to-kill-children-for-demanding-road-safety-and-justice/)",2,t1_e3o4mjy,1,1533528100.0
+I’m going to translate this to spanish when I get home ,9,t1_e3nhg7w,1,1533486209.0
+#WeDemandJustice is being censored now :/ ,7,t1_e3nzzn2,1,1533504811.0
+"We should *all* need a credible source.
+
+Isn't it kinda odd that there isn't a single source backing any of this up? I remember the Iranian protests, there was video all over the place, it was front page news. From *Iran*. 
+
+But I haven't seen a single video of anything here.
+
+What's really going on here? ",4,t1_e3nzzn2,1,1533516057.0
+"Unfortunately the censorship was outside the country also.  
+
+Twitter also blocked the hashtag - to prevent the story from being trending globally. The /r/worldnews/ mods also removed a post with 4500 upvotes going to front page - which basically silenced the story for 12 or so hours. But now on world news the story is back (maybe there was too much interest for the mods to kill this story to).",5,t1_e3oiczh,1,1533553871.0
+"Agreed. Their government is practically just burying themselves, burying all the innocent lives, and shutting their voices down. They do need to be heard. Trying so hard to have them be heard, but with them taking down media and posts...its so stressful. Westerners and many more are trying and so much censorship. ",2,t1_e3oiczh,1,1533537789.0
+"Hey, EruditoCollective, just a quick heads-up:  
+**alot** is actually spelled **a lot**. You can remember it by **it is one lot, 'a lot'**.  
+Have a nice day!
+
+^^^^The ^^^^parent ^^^^commenter ^^^^can ^^^^reply ^^^^with ^^^^'delete' ^^^^to ^^^^delete ^^^^this ^^^^comment.",-14,t1_e3oiczh,1,1533523160.0
+"Evidence archive 1, link is in /r/Bangladesh megathread description. 
+
+Also check YouTube link posted by u/forceless_jedi. Public translation has been activated for videos uploaded in the link. The link is in the r/Bangladesh megathread description",1,t1_e3nr2vs,1,1533522206.0
+"Well, we do have English news sites that you could use such as:
+
+https://dhakatribune.com and http://thedailystar.net
+
+These two are the most popular ones. Most of the incidents are not being published due to censorship from the Government, but it’s better than nothing. We appreciate your help.",5,t1_e3oteb8,1,1533542043.0
+"The live thread has a lot of relevant and updated reports, including eyewitness videos, arrests of journalists, and brutal police action against students: https://www.reddit.com/live/11e4mknpbhjqr
+
+Thank you for what you are doing.",2,t1_e3oteb8,1,1533581866.0
+not seeing any new tweets. screenshot?,2,t1_e3rt113,1,1533662162.0
+The text from your post has been removed. Any ideas?,5,t1_e3lapfz,1,1533387587.0
+"https://www.reddit.com/r/GlobalTalk/comments/94ivwt/bangladesh_violence_unleashed_upon_student/e3lamx1/
+
+Country tag was missing?",2,t1_e3lapfz,1,1533422507.0
+"Download Firechat — mesh networking chat — SKorea protestors used it when their govt shut down the internet:
+
+FireChat by Open Garden 
+
+https://itunes.apple.com/us/app/firechat/id719829352?mt=8
+
+",5,t1_e3ml6xx,1,1533483656.0
+Maybe keep a copy for safekeeping on your hard drive in case the Bangladesh government tries to delete Internet-based copies.,8,t1_e3mljg7,1,1533438691.0
+thank you - we need this evidence to be stored in as many as possible. ,3,t1_e3onac1,1,1533563528.0
+[deleted],5,t1_e3n6ivy,1,1533473514.0
+Is this story true? ,2,t1_e3q37rj,1,1533641428.0
+"^(Hi, I'm a bot for linking direct images of albums with only 1 image)
+
+**https://i.imgur.com/RucuCRq.jpg**
+
+^^[Source](https://github.com/AUTplayed/imguralbumbot) ^^| ^^[Why?](https://github.com/AUTplayed/imguralbumbot/blob/master/README.md) ^^| ^^[Creator](https://np.reddit.com/user/AUTplayed/) ^^| ^^[ignoreme](https://np.reddit.com/message/compose/?to=imguralbumbot&subject=ignoreme&message=ignoreme) ^^| ^^[deletthis](https://np.reddit.com/message/compose/?to=imguralbumbot&subject=delet%20this&message=delet%20this%20e3u1cm4) ",1,t1_e3u1cgm,1,1533747129.0
+you can access the videos thru the evidence archives posted in the r/bangladesh megathread description. ,2,t1_e3nxa02,1,1533523814.0
+"A Bangladeshi-Canadian commented earlier about how the government, public agencies, and their officials are all connected to each other in corruption and nepotism, so that when one official commits a crime, it is covered up so that those in power stay in power. 
+
+These students protesting completely threaten their corrupt way of doing things. To those in power, these protests are completely unacceptable, and their brutal actions trying to crush the student protests are meant to obliterate opposition.",5,t1_e3mkyzo,1,1533440807.0
+thank you for your solidarity. ,3,t1_e3mvphr,1,1533465020.0
+Is anyone having success reporting this? I’ve tried several times and it won’t accept my request! ,9,t1_e3n2zf3,1,1533466202.0
+Can we contact the admins of the group to take it out? ,3,t1_e3n2zf3,1,1533470648.0
+can you post a screenshot?,4,t1_e3pzggr,1,1533587002.0
+"^(Hi, I'm a bot for linking direct images of albums with only 1 image)
+
+**https://i.imgur.com/ADtCqDO.jpg**
+
+^^[Source](https://github.com/AUTplayed/imguralbumbot) ^^| ^^[Why?](https://github.com/AUTplayed/imguralbumbot/blob/master/README.md) ^^| ^^[Creator](https://np.reddit.com/user/AUTplayed/) ^^| ^^[ignoreme](https://np.reddit.com/message/compose/?to=imguralbumbot&subject=ignoreme&message=ignoreme) ^^| ^^[deletthis](https://np.reddit.com/message/compose/?to=imguralbumbot&subject=delet%20this&message=delet%20this%20e3uap94) ",0,t1_e3uaop1,1,1533754573.0
+they removed it bro,3,t1_e3n0b9z,1,1533464860.0
+Its been removed. ,2,t1_e3n0b9z,1,1533466416.0
+"PLease all help get this post to front page. We need international intervention at this very moment!
+
+[https://www.reddit.com/r/worldnews/comments/94qb7m/bangladesh\_government\_is\_at\_war\_with\_its\_children/](https://www.reddit.com/r/worldnews/comments/94qb7m/bangladesh_government_is_at_war_with_its_children/)",3,t1_e3n3qhm,1,1533468346.0
+"Can we help in translating videos? If yes, how do we do so? I'd be happy to contribute more.",2,t1_e3n3qhm,1,1533470847.0
+Yep :(,2,t1_e3np45u,1,1533507237.0
+Haven't heard or seen any verifiable or solid proof about this. A couple of reported deaths in social media have been proved false by third party watchdog,2,t1_e3np45u,1,1533522069.0
+Ndtv is ass. No one gives a crap about them in India.,2,t1_e3oyeo6,1,1533720167.0
+"Hey man. Don't you think it would be better to separate out the video links to this thread, and leave the live thread for updates only?",3,t1_e3mpajm,1,1533442173.0
+https://www.facebook.com/avisheksharma.pranto/videos/1709179862527928/ add this if possible more vicious attacks by Awami league ,2,t1_e3mpajm,1,1533454291.0
+Viewed some of the evidence videos. I fucking hate humanity more and more everyday.,1,t1_e3mpajm,1,1533491936.0
+"Created a subreddit to share anonymous realtime updates since a lot of Facebook accounts are being monitored and students arrested:
+
+[https://www.reddit.com/r/DhakaWantsJustice/](https://www.reddit.com/r/DhakaWantsJustice/)",1,t1_e3mpajm,1,1533568847.0
+video no longer available,2,t1_e3lz9ku,1,1533417275.0
+Shajahan Khan is the water/naval transport minister and is also the president of the road transport workers union. If you google these terms together theres some news article covering his collusion and track record. ,7,t1_e3ngow9,1,1533485015.0
+They are throwing tear gas into the campus,2,t1_e3osxj4,1,1533550329.0
+"The European Union is the biggest export destination for Bangladesh, so if they put economic pressure on Bangladesh, it could force the government to do something.",7,t1_e3r5vka,1,1533656217.0
+"A lot of economic pressure, that's for sure.",4,t1_e3r5vka,1,1533651275.0
+"I mean, as much as I don't want to jump to it, there's always the military option.",3,t1_e3r5vka,1,1533650284.0
+"They've put up a gofundme @ https://www.gofundme.com/bangladesh-victim039s-fund to help the treatment of students who are severely injured and unable to meet their medical expenses. 
+
+This info is also up @ the live thread.  Please help and share, if you can?",6,t1_e3rg1y6,1,1533676326.0
+https://www.reddit.com/r/bangladesh/comments/94rfy3/how_you_can_help_please_read/,3,t1_e3rg1y6,1,1533651449.0
+AFAIk the bail $$ isn't the problem. The students not released have been taken into remand under the non-bailable clause. ,3,t1_e3rkf33,1,1533654654.0
+[deleted],1,t1_e3rkf33,1,1533668343.0
+Can you put some videos on LiveLeak or Vimeo or another service too? Youtube has been taking a lot of them down. ,1,t1_e3n0jaa,1,1533460796.0
+Holy hell :( so terrifying,7,t1_e3ncn6r,1,1533491612.0
+Holy Shit,2,t1_e3ncn6r,1,1533507804.0
+again?,3,t1_e3nrt4r,1,1533496201.0
+"According to this report, he had been abducted from a private television channel office by some 'unknown' people and have been returned one hour later.
+
+[http://www.prothomalo.com/bangladesh/article/1548026/%E0%A6%86%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%B6%E0%A6%B9%E0%A7%80%E0%A6%A6%E0%A7%81%E0%A6%B2%E0%A6%95%E0%A7%87-%E0%A6%85%E0%A6%AA%E0%A6%B9%E0%A6%B0%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97](http://www.prothomalo.com/bangladesh/article/1548026/%E0%A6%86%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%B6%E0%A6%B9%E0%A7%80%E0%A6%A6%E0%A7%81%E0%A6%B2%E0%A6%95%E0%A7%87-%E0%A6%85%E0%A6%AA%E0%A6%B9%E0%A6%B0%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97)",5,t1_e3nrt4r,1,1533502195.0
+The link is not working ,2,t1_e3n2mau,1,1533498696.0
+Here's the English version: https://www.dhakatribune.com/bangladesh/dhaka/2018/08/08/police-carry-out-block-raid-at-bashundhara-r-a,2,t1_e3u5gmw,1,1533750691.0
+"^(Hi, I'm a bot for linking direct images of albums with only 1 image)
+
+**https://i.imgur.com/P8M9fLC.jpg**
+
+^^[Source](https://github.com/AUTplayed/imguralbumbot) ^^| ^^[Why?](https://github.com/AUTplayed/imguralbumbot/blob/master/README.md) ^^| ^^[Creator](https://np.reddit.com/user/AUTplayed/) ^^| ^^[ignoreme](https://np.reddit.com/message/compose/?to=imguralbumbot&subject=ignoreme&message=ignoreme) ^^| ^^[deletthis](https://np.reddit.com/message/compose/?to=imguralbumbot&subject=delet%20this&message=delet%20this%20e3ln2g3) ",1,t1_e3ln270,1,1533401097.0
+"It's working fine
+
+ICT minister threatened about only Facebook.",3,t1_e3ququf,1,1533618150.0
+"https://www.bbc.co.uk/news/world-asia-45069935
+
+
+https://www.bbc.com/news/world-asia-45048012
+
+
+https://www.bbc.com/news/world-asia-45074384
+
+
+",18,t1_e3ncau7,1,1533481389.0
+"everybody please, we need links of newses, even may be verified pictures. we need to get this to front page. ",4,t1_e3l8sgo,1,1533389790.0
+I heard jey 4 kids were shot dead. Heaed about the rape too but not the eye thing. Can you add to fb links to your comment? ,2,t1_e3l8sgo,1,1533384520.0
+"For those of us who can't watch the livestream, what's he saying?",2,t1_e3mrlfh,1,1533446618.0
+Why is Facebook removing all of this content?? I don't get it,1,t1_e3lnr2n,1,1533569414.0
+"I’m new to this, but it seems less like a problem with the rules of the road so much as a corrupt licensing system, specifically with bus drivers, which allows many unsafe and unfit drivers to operate vehicles they really absolutely should not be. ",4,t1_e3mhw8b,1,1533433805.0
+"Unfortunately they can't. Government is as corrupted as it can be and a whole bunch of lobbyists are involved into this.
+Ministers and Members of the Parliament have shares in bus companies, so they don't want anything run against them. Students were forced to protests as there were no other options were left.",3,t1_e3mhw8b,1,1533459638.0
+"What?
+
+It's 100% a political thing.",19,t1_e3nknco,1,1533489049.0
+"You don't have to look at what triggered the event, but at the whole history of the country. The fact that the public transports there can run over people without any consequence -- which is already fucked up by itself -- is probably only one amongst many other issues they face.
+
+A couple years ago a bunch of protests happened in Brazil against the Government's corruption and bad admnistration and what triggered the event was a raise of 20 cents in the bus money. Some people tried to demoralize the cause by saying things like ""it's just 20 cents"", but that overly simplistic explanation didn't take into account that it was like the 3rd ""small"" raise in a very short amount of time and that there were a lot of recent cases of corruption in all sectors. It wasn't only about 20 cents, but it was what triggered the event. Nowadays Brazil is much better and a lot of important politics were sent to the jail for corruption, including the highly popular ex-president.
+
+I mean if you're irritated because people in the other side of the world who have no direct impact in your life are protesting for a better life then just imagine how pissed you would be if bus drivers would hit and run the people you knew and there were no consequences for that.",18,t1_e3nknco,1,1533492130.0
+"While I suspect that you are trolling, here is basically what happened as far as i understand
+
+1) Bus accidents happen all the time in Bangladesh. The day before, a bus crashed and 33 people were killed. It's not safe at all.
+
+2) This time bus drivers were racing to get more passengers and in the process hit 15 people, killing 2 students. Those drivers went free without punishment.
+
+3) People protest in demand for more strict traffic laws.
+
+4) Minister in charge of transportation with known ties to POWERFUL CORRUPT TRANSPORT UNIONS makes insensitive remarks and brushes off the issue despite massive protest.
+
+5) Public demands for his resignation.
+
+6) Police start shooting rubber bullets and armed gangs show up beating and sometimes even murdering students with machetes.
+
+As far as I have seen, all news outlets agree that the protests were peaceful until the moment that the police started shooting.
+
+Edit: rubber bullets",17,t1_e3nknco,1,1533498906.0
+"It's okay bro, help your own country out first as I can assure you we will be fine. It's not the first time after all.",8,t1_e3ox6va,1,1533546368.0
+I hope your day is as pleasant as you are. ,7,t1_e3ox6va,1,1533579200.0
+Wow! It's pretty sad that at a time of crisis you'd rather spread pathetic opinions and divide us further than help people. Says tons more about you than the kids fighting for what's right. I hope you find it in your heart to be more kind and human. Good luck.,6,t1_e3ox6va,1,1533577901.0
+Lol Pakistan is a train wreck. ,4,t1_e3ox6va,1,1533564055.0
+I read in the news dozens of people died on the election day in Pakistan?? Is that a good democracy?,6,t1_e3ox6va,1,1533552499.0
+"Fingers crossed. With the language barrier and limited internet access, I don't expect to make a difference (except perhaps [here](https://old.reddit.com/r/privacy/comments/94kxbi/trying_to_bypass_government_surveillance/) - I hope we hear more from them), but it's the step I *could* take...",4,t1_e3mjxnv,2,1533439407.0
+We've been mailing them for quite a while now. No response sadly. We might get some by tomorrow.,21,t1_e3lcpx5,2,1533393766.0
+thank you!,5,t1_e3m5vqk,2,1533420671.0
+"from Medium
+
+[https://medium.com/@skbshinigam/student-massacre-in-bangladesh-3cbb75fdbda4](https://medium.com/@skbshinigam/student-massacre-in-bangladesh-3cbb75fdbda4)",2,t1_e3m5vqk,2,1533441908.0
+check live reddit thread for translation https://www.reddit.com/live/11e4mknpbhjqr,10,t1_e3m4drn,2,1533419099.0
+"Also don't use SMS , they can use their capability to intercept 2FA codes. Use Authenticator apps.",8,t1_e3n1o5w,2,1533464070.0
+"You can use either LastPass or BitWarden without worry to generate and store your super complex passwords. BitWarden especially uses an open source algo, thus it's security is maintained by worldwide contributors.",6,t1_e3n1o5w,2,1533462914.0
+"There was another video where a brother was crying for his sister. These videos really breaks my heart. 
+
+The people who are claiming that these are rumors are obviously *League er Polapain* or blind follower of AL. They've done the same in the past and it basically is their strategy. I don't know how much blind and dumb can one be.",5,t1_e3mk5kh,2,1533437323.0
+Most likely it was taken down from facebook.,1,t1_e3q7e0r,2,1533607748.0
+[this is using the fb lite app](https://i.imgur.com/yjgJoOC.jpg),15,t1_e3llumb,2,1533403190.0
+Facebook has been disabled access via the Mobile data. They are blocking this at gateway level.,3,t1_e3lm6w4,2,1533462289.0
+I will DM to them if you wish.,7,t1_e3macmq,2,1533425356.0
+[deleted],1,t1_e3macmq,2,1533433450.0
+"Thanks for writing to the newspaper. But nope, I don't see anything. rsi.ch/news is the most prominent for world news but can't see anything about this. They may talk about it on the TV or radio.",2,t1_e3n2pqb,2,1533465791.0
+"no it did. https://imgur.com/a/ipspEDO
+
+also fb is removing content as well - https://imgur.com/a/U4p2MXy",11,t1_e3lo5dc,2,1533403172.0
+"I just did a Google search on Bangladesh and literally only Al Jazeera is giving it the deserved coverage, all the other major new sources are not covering it it all or the headings are not painting the incidents in the right light I feel so upset 
+
+Edit: ok I did find an article on [NYT](https://www.google.com.sg/amp/s/www.nytimes.com/2018/08/05/world/asia/bangladesh-students-protests.amp.html) that reads rather fair. ",10,t1_e3osz3f,2,1533537607.0
+"Here's a collection of some of the latest videos: 
+
+https://www.youtube.com/channel/UC3Pw6X2IoPWKWrNNnQ66_Lg",3,t1_e3mzifo,2,1533458196.0
+">CL are attempting to break down a gate in order to light fire to a building sheltering protesters. Location: Dhanmondi
+
+>I just want this to end. /u/VPM43
+
+This was sent out 13 minutes ago. Video released so far indicates that burning people alive might actually be happening. Sick to my stomach. ",10,t1_e3n0jzj,2,1533460585.0
+"dude, don't be dishearten. we did not have cellular data service in 52, 69 or even 71. we still pulled through and justice will Insha Allah prevail. world is watching and hasina administration must answer to Bangladeshi citizens sooner than later. ",3,t1_e3n0q9b,2,1533464910.0
+Trying to bury everything....,7,t1_e3o3tox,2,1533507829.0
+"**14. Injured Student.**
+
+*LINK:*
+
+[http://13.58.156.176/Cloud%20folder%20backups/Students%20get%20attacked%20by%20chatro%20league/video-1533389241.mp4](http://13.58.156.176/Cloud%20folder%20backups/Students%20get%20attacked%20by%20chatro%20league/video-1533389241.mp4)
+
+**15. Image of dead woman.**
+
+*LINK:* [https://drive.google.com/file/d/1w1TIEM2WpIU5nHOafRIFmac2D64tW6WX/view](https://drive.google.com/file/d/1w1TIEM2WpIU5nHOafRIFmac2D64tW6WX/view)
+
+**16. Information Ministry warning Ekattor TV to stop coverage.**
+
+*LINK:* [https://www.thedailystar.net/backpage/ministry-warns-ekattor-tv-its-coverage-of-student-protests-for-safe-roads-in-bangladesh-1616194](https://www.thedailystar.net/backpage/ministry-warns-ekattor-tv-its-coverage-of-student-protests-for-safe-roads-in-bangladesh-1616194)
+
+**17. General Secretary Obaidul Quader warns students of foul play in student's campaign.**
+
+*LINK:* [https://bdnews24.com/politics/2018/08/04/obaidul-quader-warns-students-of-political-foul-play-in-non-political-campaign](https://bdnews24.com/politics/2018/08/04/obaidul-quader-warns-students-of-political-foul-play-in-non-political-campaign)
+
+**18. Internet has been slowed drastically and/or shutoff in select areas of Bangladesh.**
+
+*LINK:* [https://www.thedailystar.net/country/bangladesh-mobile-internet-speed-brought-down-across-for-24hrs-1615909](https://www.thedailystar.net/country/bangladesh-mobile-internet-speed-brought-down-across-for-24hrs-1615909)
+
+*LINK:* [https://www.straitstimes.com/asia/south-asia/bangladesh-shuts-down-mobile-internet-to-tackle-teen-protests](https://www.straitstimes.com/asia/south-asia/bangladesh-shuts-down-mobile-internet-to-tackle-teen-protests)
+
+*LINK TO BANGLADESH TELECOMMUNICATION REGULATORY COMMISION CLAIMING INTERNET ISSUES ARE DUE TO “TECHNICAL ISSUES”:* [https://bdnews24.com/bangladesh/2018/08/05/technical-issues-slowed-mobile-internet-says-btrc](https://bdnews24.com/bangladesh/2018/08/05/technical-issues-slowed-mobile-internet-says-btrc)
+
+**19. Prime Minister claims Road Transport Act, which contains all the demands being made from protesters, will get approval from cabinet on Monday, 8/6/18.**
+
+*LINK TO ARTICLE:* [https://www.dhakatribune.com/bangladesh/government-affairs/2018/08/05/quader-nine-point-demands-to-be-fulfilled-after-new-law-passes](https://www.dhakatribune.com/bangladesh/government-affairs/2018/08/05/quader-nine-point-demands-to-be-fulfilled-after-new-law-passes)
+
+**20. US Ambassador Convoy Attacked**
+
+*LINK TO ARTICLE:* [https://www.msn.com/en-us/news/world/us-ambassadors-convoy-attacked-by-armed-men/ar-BBLw0ir?ocid=spartanntp](https://www.msn.com/en-us/news/world/us-ambassadors-convoy-attacked-by-armed-men/ar-BBLw0ir?ocid=spartanntp)
+
+**21. Photographer Shahidul Alam picked up by Dhaka Metropolitan Police (by force it seems) after interviewing with Al Jazeera.**
+
+*LINK TO INTERVIEW VIDEO:* [https://www.youtube.com/watch?v=J9j3EgLm62Q&feature=youtu.be](https://www.youtube.com/watch?v=J9j3EgLm62Q&feature=youtu.be)
+
+*LINK TO ARTICLE CLAIMING ABDUCTION:* [https://www.dhakatribune.com/bangladesh/dhaka/2018/08/05/photographer-shahidul-alam-picked-up-from-his-home](https://www.dhakatribune.com/bangladesh/dhaka/2018/08/05/photographer-shahidul-alam-picked-up-from-his-home)
+
+*LINK TO FACEBOOK POST CLAIMING ABDUCTION:* [https://www.facebook.com/Drik.bd/posts/1944838148905677](https://www.facebook.com/Drik.bd/posts/1944838148905677)
+
+**22. Bus services will resume Monday**
+
+LINK TO ARTICLE: [https://www.dhakatribune.com/bangladesh/2018/08/06/bus-services-to-resume-monday](https://www.dhakatribune.com/bangladesh/2018/08/06/bus-services-to-resume-monday)
+
+**Informative Links**
+
+**1. Link to website that serves to maintain compounding evidence against BCL (courtesy of** [**u/r0tekatze**](https://www.reddit.com/u/r0tekatze)**)**
+
+*LINK:* [http://vixendev.co.uk/resources/sanctuary5/index.html](http://vixendev.co.uk/resources/sanctuary5/index.html)
+
+**2.  Live feed of protests**
+
+*LINK:* [https://www.reddit.com/live/11e4mknpbhjqr/](https://www.reddit.com/live/11e4mknpbhjqr/)
+
+This is just some of the information I have compiled. There is plenty of information that I have not included.",6,t1_e3o4nk5,2,1533508616.0
+"^(Hi, I'm a bot for linking direct images of albums with only 1 image)
+
+**https://i.imgur.com/jAnc58o.png**
+
+**https://i.imgur.com/OT0ul7h.jpg**
+
+^^[Source](https://github.com/AUTplayed/imguralbumbot) ^^| ^^[Why?](https://github.com/AUTplayed/imguralbumbot/blob/master/README.md) ^^| ^^[Creator](https://np.reddit.com/user/AUTplayed/) ^^| ^^[ignoreme](https://np.reddit.com/message/compose/?to=imguralbumbot&subject=ignoreme&message=ignoreme) ^^| ^^[deletthis](https://np.reddit.com/message/compose/?to=imguralbumbot&subject=delet%20this&message=delet%20this%20e3o4ns9) ",1,t1_e3o4nk5,2,1533508524.0
+I cannot see some of the video links.. were they taken down? ,1,t1_e3o4nk5,2,1533513914.0
+"Ok good, try and let everyone you know about it, I'm doing the same",7,t1_e3ni1fc,2,1533486256.0
+fuck,3,t1_e3o0ytz,2,1533506325.0
+Well Shit,3,t1_e3o0ytz,2,1533507203.0
+"By Reddit themselves?
+
+I have a forum I host, I am willing to setup a section just for this.  It's not a very active forum though so it kinda defeats the purpose... but it will make for a place to discuss the ongoing issues.  
+
+If you guys think this could help I can set it up. ",2,t1_e3o0ytz,2,1533506290.0
+"There is sources though. The Guardian has done an article, Dhaka Tribune has done several. ",3,t1_e3obo4t,2,1533522106.0
+"I'd say first accounts from people actually affected with tons of videos is quite a credible source. It's just not ""official"", so don't know how you turn that into an official news article. Not sure how all that works tbh. ",3,t1_e3obo4t,2,1533525229.0
+"Facebook in Bangladesh and worldwide has taken down posts. Youtube global has deleted videos. Reddit has taken down the top posts from front page. Worldwide media has sanitized the story. Eyewitness accounts and videos are not being reported.
+
+Keep reporting, keep sharing. Do the job that those in power will not do.",5,t1_e3p1ev2,2,1533579755.0
+Thank you! And you're welcome. We have to help each other as people.,3,t1_e3ovng0,2,1533565605.0
+Trying to figure out how would I upload them here.....,1,t1_e3ruaqm,2,1533663032.0
+I can still see the text. No clue what's wrong. [https://imgur.com/cQf8SHt](https://imgur.com/cQf8SHt),6,t1_e3lb3u2,2,1533388382.0
+experienced the same thing. however i do not have any karma points. is that the reason? ,1,t1_e3lb3u2,2,1533389870.0
+A link for those of us who don't use Apple devices?,2,t1_e3nfjh7,2,1533484971.0
+"Can you explain? I don't see it anywhere when I look at /r/worldnews/ subreddit.  When mods delete threads you can still see them with the link, but it's invisible to anyone looking at a subreddit.  
+
+It's also completely unchanging in upvotes. I am sure it is removed.",4,t1_e3n7722,2,1533473995.0
+I'm looking for corroboration/ confirmation on the same. ,3,t1_e3r8hu8,2,1533643092.0
+[deleted],5,t1_e3n37ee,2,1533466604.0
+"[One from me, one from my friend ](https://vgy.me/album/LmA6z9ng)  
+",5,t1_e3pzs7p,2,1533587698.0
+It has been blocked since day before yesterday and I can recall that someone already mentioned that on the live thread.,2,t1_e3pzs7p,2,1533587407.0
+Weird. No reason to remove it. ,3,t1_e3n3azc,2,1533467349.0
+"Can you message this guy and ask if you can help him, or if he knows who to ask about it.  [Here](https://www.reddit.com/r/bangladesh/comments/94r3wa/i_urge_you_to_get_organized_here_on_reddit_to/e3n3vsa/)   Ask BengaliAbroad if you can help.",1,t1_e3n5k0h,2,1533471264.0
+"Are u serious? 😲
+
+Got any source? ",3,t1_e3o3eod,2,1533509493.0
+hey! I don't think thats a big issue. I will add the video links here as well and ask the translators to put their translations up here rather than the live feed. ,1,t1_e3mphwc,2,1533442675.0
+mirror - http://www.mediafire.com/file/rzucyrdo3aucfrn/Bangladeshi+politician+confesses+to+beating+children+on+live+national+TV.MP4,4,t1_e3m2ubg,2,1533417379.0
+Thank you for the information.,2,t1_e3ngv0m,2,1533485163.0
+"I can't help with a lot (my own debt is crushing), but I can at least throw a little bit of my disposable income. ",2,t1_e3sbxue,2,1533708986.0
+"ok, thanks.",2,t1_e3rkyeq,2,1533655777.0
+I am willing to contribute to Akib's care if someone starts the gofundme. I'm not fluent in Bengali and will have trouble communicating with the recipients. ,2,t1_e3s22g8,2,1533669556.0
+Will do. I just waiting for Google to verify account creation.,4,t1_e3n0sus,2,1533461042.0
+Yup :(,5,t1_e3nnhxw,2,1533494529.0
+"They posted it today So I guessed it happened recently, but they said it was on Monday evening (?). So it might not be today...",4,t1_e3ns2zf,2,1533496419.0
+got deleted like every other videos,3,t1_e3nuklg,2,1533503668.0
+Thanks,2,t1_e3qvawl,2,1533618927.0
+"But it was slowed down, right? Is it back to normal?  I read they slowed it down to prevent videos from being uploaded.",2,t1_e3qvawl,2,1533635335.0
+Try adding yourself to the group [Voice of Rights](https://www.facebook.com/groups/voiceofrigthts/). It is probably the most active group on the issue so far. You get all the updates and posts there. Please evaluate before taking them seriously.  ,3,t1_e3l96xr,2,1533397821.0
+[Quazi Nowshaba Ahmed is a witness](https://m.facebook.com/story.php?story_fbid=2380129505345421&id=100000451833991),2,t1_e3l96xr,2,1533389386.0
+"She is urging the evil, heartless parents and teachers to not send their innocent, soft-hearted children off to the streets to take out on their naïve, silly concerns over such trivial matters as road safety, because of course the gov is working tirelessly for the country’s progress in every sphere including road safety, as it had always been doing even before these silly protests.
+
+This Machivellian honourless bitch is known for her cunning soft words I’m telling ya.
+",23,t1_e3mt0vr,2,1533447935.0
+Translation in the Reddit live thread,2,t1_e3mt0vr,2,1533447783.0
+Ah okay. I have seen a lot about how they are stopping busses to make sure that the driver has a license. Are the drivers hired by the government? Is that why the government got involved?,1,t1_e3mi5is,2,1533433874.0
+Thanks for this! Makes sense to me now.,1,t1_e3n09ua,2,1533531197.0
+"These riots started when someone got hit by a bus...  
+
+
+What politics is involved in a traffic accident...",-34,t1_e3nkwjg,2,1533489169.0
+"Good to know that. I'm working on creating a full report on all the incidents up until now, since July 30th. ",23,t1_e3lg1il,3,1533396748.0
+"Hey, thank you for doing this!
+
+Consider asking the reddit admin u/sodypop if he could help you guys with visibility. This needs more coverage I think. Out here in the West it's reported very little.",6,t1_e3m4kg1,3,1533430033.0
+can you still use fb on wifi? this maybe due to the mobile internet being shut down. ,7,t1_e3lp526,3,1533404637.0
+Please and thank you,4,t1_e3mahnw,3,1533425740.0
+thank you will check it out now. ,1,t1_e3mhucq,3,1533438136.0
+"F****** =/
+
+Edit: Language",1,t1_e3lp4f5,3,1533439361.0
+"NYTimes was incredibly slow to cover this story. Up until yesterday, if you visited the World news section of NYTimes - nothing. If you visited the Asia page - nothing. Just a few tiny articles from AP that were buried.  
+
+Also, many women were raped and people were killed. That should be part of the story - but it always seems to be missing.",4,t1_e3otaui,3,1533553704.0
+Let's hope for the best and prepare for the worst!,3,t1_e3n2mdv,3,1533470263.0
+They were just moved to a different folder. I've edited them now and they all seem to be working,2,t1_e3o9nk3,3,1533525377.0
+"I don’t know where to post it, so as soon as I’m done I’ll dm it to you",4,t1_e3ni333,3,1533486283.0
+"I'm doing my best to try and raise awareness on Twitter, before it use to say trending under #WeDemandJustice but now there is nothing. Nothing like it doesnt matter ):",2,t1_e3o2h81,3,1533507311.0
+I'm not very active on many things. Just a lurker. Just trying to do my best here and there with Twitter. ,2,t1_e3o2h81,3,1533507399.0
+That would be great if that was actually happening. But it isn't. ,1,t1_e3ok92c,3,1533544298.0
+what are you trying to upload? videos - use streamable pics use imgur,1,t1_e3rvfdc,3,1533663843.0
+I'm not sure! Can someone with higher karma post the news? ,2,t1_e3lcs00,3,1533392499.0
+Certainly:  https://play.google.com/store/apps/details?id=com.opengarden.firechat&hl=en_US,3,t1_e3ngtfz,3,1533485849.0
+Also: https://firechat.en.uptodown.com/android,3,t1_e3ngtfz,3,1533486072.0
+"I thought since I can open the link it's not removed. Otherwise it would have said ""[removed]"".
+
+Edit: I checked it I too didn't find that post :/ .It might have removed.",4,t1_e3n7iea,3,1533474250.0
+He said that the list got copied and pasted onto several other timelines. Reporting the group wont help that,6,t1_e3n3dzj,3,1533467106.0
+thanks. ,3,t1_e3q0m7x,3,1533587963.0
+Unless if the government did it,2,t1_e3n3qj9,3,1533468261.0
+Askreddit has a rule of not allowing text in text boxes. ,1,t1_e3n3qj9,3,1533467726.0
+"Thanks, in the same boat here. But every bit helps. 
+
+Could you also please help share? 
+
+If today we help someone, tomorrow if we need help someone will help us. That how karma rolls, yes?",1,t1_e3t7e5k,3,1533710458.0
+"we are trying to get in touch with the family and see how we can setup a gofundme
+",1,t1_e3s3km2,3,1533669692.0
+May I ask what was to see on the video ,1,t1_e3nzsj8,3,1533518567.0
+"Yes, they slowed it down to 2G frome 4G, but now it's back to 4G",2,t1_e3r53fy,3,1533639534.0
+"if you listen to her with a different perception, her speech sure sounds like a threat. 
+
+""Take back your children or they won't be safe on streets""
+
+Damn woman! Why would you be the PM and not ensure safety of your children? ",11,t1_e3mtwv0,3,1533458298.0
+"I could definitely be wrong here, but I think the licenses are issued by the government, like they are in the US. Also, it seems like the bus companies have a strong lobbying arm into legislation that could address these issues. ",3,t1_e3mi7re,3,1533434490.0
+"Have you not read anything?
+
+Peaceful protests starting in response to the bus killing 2 kids, the students rose up and want safer driving laws and conditions. Something which is entirely logical and reasonable.
+
+In response, the government turned on them instead of just accepting it. Started killing protesters among other things. Due to them having investments in the bus companies that are effectively running illegally even though the laws are not being enforced.
+
+This is 100% political, a corrupt government finally going completely against it's people in the interest of money.",28,t1_e3nl0rq,3,1533489399.0
+can you please share your report? I live in the US and am trying to get the attention of some of the organizations I belong to spread awareness. ,21,t1_e3lirvb,4,1533396960.0
+"I am connected fo wifi. I can browse using web, but can't using lite app.",9,t1_e3lqmfj,4,1533405850.0
+I did. It's 2AM but if there's anything I could be useful for please tell me.,3,t1_e3maub0,4,1533425859.0
+I did. It's 2AM but if there's anything I could be useful for please tell me.,2,t1_e3maub0,4,1533425849.0
+Can you share the evidence of it? It is important to document evidence to claims. ,1,t1_e3p1bhr,4,1533594115.0
+"I won't be able to do anything with it sadly, ill have no service or wifi for the next week so just try and tell people",4,t1_e3ni44r,4,1533486342.0
+https://imgur.com/a/Wa8Lcsh,2,t1_e3rwgzn,4,1533664019.0
+http://imgur.com/a/sMfg6SN,2,t1_e3rwgzn,4,1533664631.0
+"So, technically they did not delete the OP (it would say [removed]) but they have hidden it so no one can see it.  I don't know the reddit term, but they deleted it by making it invisible.",4,t1_e3n7ofr,4,1533474419.0
+[deleted],5,t1_e3n3mf8,4,1533467567.0
+There is no text in textbox. See it again ,1,t1_e3n3x0j,4,1533467979.0
+"been sharing with friends, family, and everyone I can on forums (appropriate places) and discord servers I frequent.",2,t1_e3t89hj,4,1533794640.0
+Thank you and /u/littlebluish for all that y'all are doing. ,2,t1_e3s3qmt,4,1533670564.0
+"Would it be possible to create a new stickie post in this sub about the gofundme?  I'm asking you, since you're a mod.",1,t1_e3s3qmt,4,1533675514.0
+"So you think a response to a traffic accident is marching around protesting...  
+instead of say, electing officials who want to have better traffic laws? Or going to a council meeting? The answer was to disrupt the entire city...  
+",-34,t1_e3nl982,4,1533489652.0
+"Yes, of course. Of course I can. I'm desperately trying to reach foreign media to cover this. The happenings are outrageous, and it is as if we are enclosed in a country that says it's democratic, but is reigned by dictatorship. I opened a subreddit as a backup just in case they shutdown Facebook, and the govt is already filtering hashtags so organisations cannot receive the messages. ",18,t1_e3liz7x,5,1533398127.0
+"Where would you share this if you had it?
+
+
+I’m thinking about making a post on this subreddit for starters ",3,t1_e3ni68o,5,1533486563.0
+Shadowban.,3,t1_e3n7sm4,5,1533478552.0
+"I reported the group of course. I just worry it's not enough.
+
+And I haven't been able to access the live thread for almost 10 mins ",4,t1_e3n3u99,5,1533467825.0
+"Thanks. Me too. 
+
+I just wish the student protesters who have been arrested get freed  :-( 
+
+",2,t1_e3vf49p,5,1533795154.0
+on the sub? or the thread?,1,t1_e3saz72,5,1533675549.0
+"You clearly don't grasp the issues of corrupt governments.
+
+Voting isn't the answer in a country with a government that manipulates the votes.",24,t1_e3nlhix,5,1533489762.0
+".... and the way to handle protestors is to start killing them ? You know any thing about your country, how it even began or the ruling party. it was made out of the right to protest and exercising it. ",17,t1_e3nlhix,5,1533492159.0
+"thats awesome. thank you! also, if you get images, videos, please upload them to imgur so they can be shared later too. ",9,t1_e3lk4ne,6,1533398199.0
+"Can you please send me the report as well? I'd really like to do something to raise awareness for this. Also, what is the subreddit you made?",2,t1_e3lk4ne,6,1533427297.0
+What's the name of the subreddit? Be sure to back up everything on another hard drive or something.,1,t1_e3lk4ne,6,1533434199.0
+Twitter with hashtag WeDemandJustice,2,t1_e3nie1w,6,1533500128.0
+"On the sub, please. To make it easily visible and accessible. The other two stickies have quite a lot of info that might confuse visitors. Maybe this thread and the other stickie can link to the gofundme page? Just suggestions. ",1,t1_e3sb0qf,6,1533676005.0
+"So you think the answer is for reddit to get involved, play god in the situation by sending money to rioters, and interfering in elections/government operations...  
+
+
+Did you cry about ""russian collusion"" in the previous american election? ",-14,t1_e3nllxa,6,1533490092.0
+"Protesting is fine, but the reason for protesting is more important.   
+
+
+""The government is taxing me without giving me any representation"" a right to protest  
+
+
+""A traffic accident happened"" not a reason to protest, that is an individual thing. ",-11,t1_e3no1pl,6,1533492439.0
+"will do
+",3,t1_e3lk769,7,1533399406.0
+"For one, reddit doesn't even have the power to do that.
+
+Two, it is extremely important to get word out of this situation and help the civilians in the country.
+
+Three, this situation is not about America. Don't try to de-rail it.",21,t1_e3nlxzo,7,1533491036.0
+Either troll or BCL,19,t1_e3nlxzo,7,1533490953.0
+You’re dumb lol.,11,t1_e3nlxzo,7,1533490678.0
+" a bus driver had a race for fun and killed people without consequence is further up there  than tax...  it's not an unreasonable thing to ask for. Literally every other country has it. 
+And the governments solution? Openly become a terrorist organization. ",11,t1_e3nobvk,7,1533493121.0
+"White nationalist troll, keyboard warrior. You are correct",16,t1_e3nmtfw,8,1533491427.0
+I notice you didn't have anything to say against this double standard...just a stupid insult...,-5,t1_e3nmjbd,8,1533491952.0
+"Are you seriously trying to infer that bus drivers have some sort of huge amount of power?  
+
+
+Really?  
+
+
+A FUCKING BUS DRIVER?",-5,t1_e3nozx6,8,1533493391.0
+"What double standard are you talking about? I'm from one of those countries where every small change has to be done through peaceful marches and protests because looking after the welfare of the citizens isn't the priority of the ruling govt. They'd rather turn a blind eye than solving the issue. Protesters in B'desh did not wake up suddenly and started protesting, it was built up since long time and the bus driver incident was just a catalyst. You have no idea how violent the govt retaliation against peaceful protests is. Rape? Murder? Abduction? You name it. Wouldn't it be easier for the govt to bring in concerned parties, and solve the problem? But instead they resort to violent means and that's what this is all about. ",4,t1_e3nnubo,9,1533494861.0
+"FUCK YOU BITCH MOTHERFUCKER DICK SHIT IMBECILE BULLSHITTER TRASH TALKER REDDIT IS TRYING TO SPREAD THE MESSAGE AND YOU ARE JUST TRYING TO SAY THAT IT IS NOTHING! ARE YOU FUCKIN BANGLADESHI GOVERNMENT OR WHAT
+
+Edit: I’m pretty sure he’s with the government.",10,t1_e3nnubo,9,1533501307.0
+At some point you just have to start calling people like you fucking morons because you’re a fucking braindead moron. ,5,t1_e3nnubo,9,1533498892.0
+"Not really, Simply why isnt he in jail/lost license and this a non issue ? 
+Instead they start torturing and killing students  showing their colours as corrupt peices of s*** and get their little pet terrorist group to cause terror. ",8,t1_e3np9nc,9,1533494856.0
+"Reddit is trying to get involved in the political system of a nation, while crying that russians interfered in the political system of america...",-2,t1_e3nqq5i,1,1533497351.0
+"I don't give a fuck if a bunch of street shitters are rioting because a couple more street shitters got squished by a street shitter driven bus, I don't give a fuck, nothing of value was lost.   
+
+
+What I care about is when reddit behaves like a hypocritical bunch of hacktivists and interferes with foreign governments, be they ones they like or dislike. That shit can fuck right off.   
+
+
+let the street shitters do as they please and need, reddit can eat a dick.",-1,t1_e3nxb05,1,1533503256.0
+What reddit is doing is spreading awareness. Opening a debate about what can be done. That's important when all means of communication is being blocked by the ruling govt. And reddit doesn't include only America. Currently Bangladesh needs all the outside help it needs. No one is asking other countries to subvert elections or create chaos. It needs other countries to take notice. Report the truth. And use diplomatic channels to force a peaceful resolution. This is different than Russia and USA. And its getting more and more violent. ,3,t1_e3nt8kq,2,1533502588.0
+"Is this how you react to many people being killed each day? Fuck off.
+
+> Nothing of value was lost
+
+LIVES WERE LOST! How do you like being killed?
+Also, the ‘street shitters’ were racing for fun and killed people. Is that ok?
+And also, if you care about Reddit being bad, leave. People are not going to stop doing this if you type some mean words. Reddit is just spreading the message.
+
+Edit: I’m sure you are with the Bangladeshi government.",3,t1_e3nzdi8,2,1533503643.0
+"I cannot even fathom how sad your life must be to devote this much effort into convincing people that you don't care about deaths caused by a corrupt government. What a fucking waste of oxygen you are, Nazi bitch. ",2,t1_e3nzdi8,2,1533510845.0
+"""Currently bangladesh needs all the outside help it needs""  
+
+
+So you are fine with outside sources interfering in governments as long as its your version of said outside interference. ",1,t1_e3nyo74,3,1533503181.0
+" *Is this how you react to many people being killed each day? Fuck off.*   
+
+
+Yes, this is how I react when people I don't give a fuck about die, millions of them died just as I typed this, not a tear was shed. Millions more will die before I go to sleep tonight, still don't give a shit.   
+
+
+ *LIVES WERE LOST! How do you like being killed? Also, the ‘street shitters’ were racing for fun and killed people. Is that ok?*    
+
+
+Yes, that is fine, street shitters got a problem street shitters may solve it, reddit can fuck right off out of the interventionist ""this is our crisis of the week everyone get involved"" bullshit.   
+
+
+ *People are not going to stop doing this if you type some mean words. Reddit is just spreading the message.*   
+
+
+Reddit is doing its usual think of hacktavist jump into a crisis then claim they are helping. They do it all the time, and frequently it leads to worse situations arising. They are hypocritic cock suckers, now fuck off.",-1,t1_e3nzrmq,3,1533503881.0
+"I cannot even fathom how sad your life has to be to sit around on reddit convincing the world that you give a shit about people you never met, acting indignant about people you cant even name, and pretending like you have some sort of smug morale high ground in doing so, your absolute garbage fake ass sympathy doesn't make you a good person, it makes you a fucking emotional parasite. Grow the fuck up, you useless fucking manchild. ",0,t1_e3o6toi,3,1533511354.0
+"Of course. My version of said outside influence is diplomatic. As I said earlier. You know, things like reporting the truth as to what is going on by the international media, diplomatic talks between the leaders, etc. If saying the truth is interfering with the government, then maybe we must rethink the definition.",2,t1_e3nzarh,4,1533506311.0
+"GO COMMIT SUICIDE, I DARE YOU!
+ Edit: Just shows you how important life is.",2,t1_e3o0077,4,1533504297.0
+Rude,2,t1_e3o7aqo,4,1533521433.0
+Maybe I will drive a bus...,0,t1_e3o0fkg,5,1533504421.0
+"Truth hurts, that you are some sort of emotional parasite that lives vicariously threw the suffering of others, because your pathetic uninteresting life bores you to death. You use tragedy as something to draw attention to yourself, by feeling you can ""JUMP IN AND HELP BY RAISING AWARENESS"" as if awareness fucking means anything at all other then ""hey everybody, look at this person suffering! Don't you feel better about yourself now?""   
+
+
+You are barely above a thief and far below a human. I am glad to be a nazi, at least I do not get off on pretending to give a fuck about others suffering. I leave the mourning and effort to those who actually care. ",0,t1_e3ogr4r,5,1533522426.0
+…and crash it off a bridge.,5,t1_e3o0k9s,6,1533504459.0
+Rude again. You're like the Energizer Bunny of hate lmao ,2,t1_e3ohon2,6,1533522701.0
+"Nah im white not a street shitter, but I imagine its hard for them to stop with the wheels covered in street shitter blood.",-1,t1_e3o0lrf,7,1533504676.0
+Racist,4,t1_e3o0tus,8,1533504747.0
+And? ,0,t1_e3o0wht,9,1533510564.0
